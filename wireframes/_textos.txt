@@ -1,0 +1,4153 @@
+
+######## PAGE 00 · Mapa e fluxo
+
+=== M01 · Mapa de navegação do produto
+[672,69] EDU.AI
+[602,107] Plataforma educacional B2B com IA
+[65,242] Professor
+[521,242] Aluno
+[977,242] Gestor
+[85,296] Visão geral
+[541,296] Início
+[997,296] Dashboard
+[85,323] Minhas disciplinas
+[541,323] Minhas matérias
+[997,323] Instituição
+[85,344] › Conteúdos
+[541,344] › Assuntos
+[997,344] › Dados
+[85,363] › Materiais de estudo
+[997,363] › Unidades
+[541,369] Estudar
+[85,382] › Atividades
+[997,382] › Cursos e séries
+[541,390] › Resumo
+[85,401] › Jogos
+[997,407] Usuários
+[541,409] › Mapa mental
+[85,420] › Desempenho
+[541,428] › Flashcards
+[997,428] › Professores
+[85,439] › Configurações
+[541,447] › Exercícios
+[997,447] › Alunos
+[85,464] Turmas e alunos
+[997,466] › Papéis e permissões
+[541,472] Mapas mentais
+[997,485] › Convites e importação
+[85,491] Biblioteca de conteúdos
+[541,499] Flashcards
+[997,510] Turmas
+[85,512] › Upload
+[541,526] Atividades
+[85,531] › Processamento da IA
+[997,537] Relatórios
+[541,547] › Resultado e revisão
+[85,556] Estúdio de IA
+[997,564] Planos e licenças
+[541,572] Jogos
+[85,583] Editor de materiais
+[997,591] Privacidade e auditoria
+[541,593] › Entrar com código
+[85,604] › Resumo
+[541,618] Meu desempenho
+[997,618] Configurações
+[85,623] › Mapa mental
+[85,642] › Flashcards
+[85,661] › Exercícios
+[85,680] › Publicação
+[85,705] Atividades e avaliações
+[85,726] › Banco de questões
+[85,745] › Correção
+[85,770] Jogos ao vivo
+[85,797] Desempenho
+[85,824] Configurações
+[95,901] Compartilhado em todos os perfis: notificações, perfil do usuário, ajuda e configurações relevantes ao papel.
+
+=== M02 · Fluxo principal do produto
+[48,48] Do material do professor à melhoria da aprendizagem
+[246,107] →
+[477,107] →
+[708,107] →
+[940,107] →
+[1171,107] →
+[81,134] 1
+[311,134] 2
+[542,134] 3
+[773,134] 4
+[1004,134] 5
+[1235,134] 6
+[67,172] Professor envia o material
+[298,172] IA interpreta o conteúdo
+[529,172] Gera o pacote de aprendizagem
+[760,172] Professor revisa e publica
+[992,172] Aluno estuda e pratica
+[1223,172] Sistema identifica dificuldades
+[67,220] Documento, resumo extenso ou material didático
+[298,220] Extrai tópicos, conceitos, definições e referências
+[529,220] Resumos, mapas mentais, flashcards e exercícios
+[760,220] Edita, seleciona os materiais e define as turmas
+[992,220] Estudo individual, tarefas e jogos interativos
+[1223,220] Relatórios e recomendações de revisão para professor e aluno
+[77,288] Professor
+[308,288] IA
+[539,288] IA
+[770,288] Professor
+[1002,288] Aluno
+[1233,306] Sistema
+[67,317] Telas: P06–P08
+[298,317] Telas: P08
+[529,317] Telas: P09
+[760,317] Telas: P10–P14
+[992,317] Telas: A04–A09 · G01–G15
+[1223,335] Telas: P17 · A11 · H06
+[95,412] O ciclo se fecha: os resultados dos alunos mostram onde há dificuldade e alimentam novas revisões, exercícios e jogos criados pela IA — sempre com revisão do professor antes de publicar.
+
+=== M03 · Permissões por perfil
+[48,48] Quem pode fazer o quê
+[65,114] Capacidade
+[781,114] Gestor
+[983,114] Professor
+[1185,114] Aluno
+[65,156] Gerenciar instituição, unidades e cursos
+[791,157] Total
+[993,157] —
+[1195,157] —
+[65,204] Convidar e importar usuários
+[791,205] Total
+[993,205] —
+[1195,205] —
+[65,252] Planos, licenças e consumo de IA
+[791,253] Total
+[993,253] —
+[1195,253] —
+[65,300] Auditoria e privacidade
+[791,301] Total
+[993,301] —
+[1195,301] —
+[65,348] Enviar conteúdos e gerar materiais com IA
+[791,349] —
+[993,349] Suas turmas
+[1195,349] —
+[65,396] Revisar e publicar materiais
+[791,397] —
+[993,397] Suas turmas
+[1195,397] —
+[65,444] Criar atividades e jogos ao vivo
+[791,445] —
+[993,445] Suas turmas
+[1195,445] —
+[65,492] Ver indicadores agregados da instituição
+[791,493] Total
+[993,493] —
+[1195,493] —
+[65,540] Ver desempenho das turmas
+[791,541] Leitura
+[993,541] Suas turmas
+[1195,541] —
+[65,588] Estudar materiais publicados
+[791,589] —
+[993,589] —
+[1195,589] Autorizados
+[65,636] Resolver atividades e participar de jogos
+[791,637] —
+[993,637] —
+[1195,637] Autorizados
+[65,684] Ver o próprio desempenho
+[791,685] —
+[993,685] —
+[1195,685] Próprio
+
+=== M04 · Prioridades do MVP
+[48,48] O que construir primeiro
+[65,114] Prioridade
+[187,114] Funcionalidade
+[659,114] Motivo
+[187,156] Cadastro, login, papéis e instituições
+[659,156] Base para o modelo B2B
+[75,157] P0
+[187,204] Disciplinas, turmas e alunos
+[659,204] Organização pedagógica
+[75,205] P0
+[187,252] Upload e processamento de documentos
+[659,252] Entrada principal do sistema
+[75,253] P0
+[187,300] Geração de resumos, exercícios e mapas mentais
+[659,300] Proposta central de valor
+[75,301] P0
+[187,348] Revisão e publicação pelo professor
+[659,348] Controle da qualidade
+[75,349] P0
+[187,396] Área de estudo do aluno
+[659,396] Entrega do conteúdo
+[75,397] P0
+[187,444] Atividades com correção automática
+[659,444] Prática e avaliação
+[75,445] P0
+[187,492] Jogos ao vivo com código de acesso
+[659,492] Diferencial de engajamento
+[75,493] P1
+[187,540] Relatórios de desempenho por assunto
+[659,540] Valor pedagógico e institucional
+[75,541] P1
+[187,588] Recomendações adaptativas de estudo
+[659,588] Personalização avançada
+[75,589] P2
+[187,636] Integrações institucionais e relatórios avançados
+[659,636] Expansão para clientes maiores
+[75,637] P2
+
+=== M05 · Guia de cores e componentes
+[48,48] Paleta
+[48,190] Azul escuro
+[218,190] Amarelo
+[388,190] Verde
+[558,190] Cinza claro
+[728,190] Azul
+[898,190] Vermelho
+[48,213] Interface · #172033
+[218,213] Destaques · #FACC15
+[388,213] Conclusões · #16A34A
+[558,213] Fundos · #F1F5F9
+[728,213] Informação · #2563EB
+[898,213] Alertas · #DC2626
+[48,260] Botões e tags
+[66,327] Criar
+[148,327] Gerar com IA
+[285,327] Cancelar
+[395,327] Salvar rascunho
+[553,327] Publicar
+[658,327] Excluir
+[745,328] Publicado
+[835,328] Em revisão
+[931,328] Rascunho
+[1021,328] Erro
+[1077,328] Novo
+[48,387] Campos, abas e controles
+[48,443] Nome do conteúdo
+[504,443] Observações para a IA
+[975,452] Visualizar
+[1066,452] Editar
+[1132,452] Responder
+[61,476] Ex.: Funções do 1º grau
+[517,476] Escreva instruções...
+[960,491] Gerar com IA
+[960,510] Revisão obrigatória
+[988,540] Selecionar turma
+[64,599] Conteúdos
+[175,599] Materiais de estudo
+[344,599] Atividades
+[451,599] Jogos
+[48,660] Indicadores e avisos
+[67,735] Turmas ativas
+[406,735] Atividades pendentes
+[745,735] Progresso da turma
+[1086,737] Gráfico de barras
+[67,755] 04
+[406,755] 03
+[67,795] +1 neste mês
+[406,795] 2 vencem hoje
+[95,927] A IA gera um rascunho. Revise, edite e publique — nada é publicado automaticamente.
+
+######## PAGE 01 · Acesso
+
+=== L01 · Login
+[853,193] Entrar na plataforma
+[102,210] EDU.AI
+[102,234] Plataforma de aprendizagem
+[853,240] Use o e-mail cadastrado pela sua instituição.
+[56,270] Do material do professor à aprendizagem de cada aluno.
+[853,273] Código da instituição
+[866,306] ex.: escola-exemplo
+[853,351] E-mail
+[88,380] IA que gera resumos, mapas mentais e exercícios
+[866,384] nome@instituicao.edu.br
+[88,424] Jogos ao vivo para engajar a turma
+[853,429] Senha
+[866,462] ••••••••
+[88,468] Indicadores para professores e gestores
+[881,508] Manter conectado
+[1096,508] Esqueci minha senha
+[1019,554] Entrar
+[132,592] ilustração / imagem de marca
+[853,600] ou
+[939,645] Entrar com SSO da instituição
+[853,692] Ainda não tem acesso? Fale com o administrador da sua instituição.
+
+=== L02 · Onboarding da instituição
+[668,48] EDU.AI
+[668,72] Plataforma de aprendizagem
+[350,118] Dados da instituição
+[590,118] Unidades e cursos
+[817,118] Convidar equipe
+[1029,118] Escolher plano
+[322,119] 1
+[562,119] 2
+[788,119] 3
+[1000,119] 4
+[393,202] Conte sobre a sua instituição
+[393,247] Essas informações personalizam a plataforma para professores e alunos.
+[393,280] Nome da instituição
+[406,313] Ex.: Colégio Exemplo
+[393,358] CNPJ
+[728,358] Tipo de instituição
+[406,391] 00.000.000/0001-00
+[741,391] Escola · Curso profissionalizante · Preparatório
+[393,453] Logotipo
+[728,453] Cor principal
+[741,486] #172033
+[470,522] Arraste ou clique para enviar
+[961,610] Continuar
+[412,611] Cancelar
+
+=== L03 · Primeiro acesso por convite
+[668,98] EDU.AI
+[668,122] Plataforma de aprendizagem
+[523,196] Convite de Colégio Exemplo
+[513,231] Você foi convidado como Professor
+[513,277] Crie sua senha para ativar a conta e acessar suas turmas.
+[513,310] Nome completo
+[526,343] Ana Souza
+[513,388] E-mail
+[526,421] ana.souza@colegio.edu.br
+[513,466] Criar senha
+[526,499] ••••••••
+[513,544] Confirmar senha
+[526,577] ••••••••
+[541,622] Li e aceito os Termos de Uso e a Política de Privacidade
+[678,669] Ativar conta
+[486,771] Alunos podem entrar também com o código da turma, informado pelo professor.
+
+=== L04 · Menu do usuário e notificações
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[777,83] Notificações
+[1002,85] Marcar todas como lidas
+[1245,92] Prof. Ana Souza
+[272,97] Bom dia, professor!
+[58,108] Visão geral
+[1245,109] Colégio Exemplo
+[815,128] A IA terminou de processar "Funções do 1º grau"
+[272,135] Acompanhe suas turmas e continue criando materiais.
+[815,146] há 2 min · Biblioteca
+[1195,148] Meu perfil
+[58,149] Minhas disciplinas
+[815,183] 18 alunos entregaram "Revisão de ciências"
+[1195,184] Preferências
+[58,190] Turmas e alunos
+[815,201] há 1 h · Atividades
+[1195,220] Ajuda e suporte
+[58,231] Biblioteca de conteúdos
+[815,238] Jogo "Desafio de história" começa às 14h
+[815,256] hoje · Jogos ao vivo
+[1195,256] Alternar perfil / unidade
+[58,272] Estúdio de IA
+[1195,292] Sair
+[815,293] Maria Lima aceitou o convite
+[815,311] ontem · Turmas
+[58,313] Editor de materiais
+[58,354] Atividades e avaliações
+[58,395] Jogos ao vivo
+[754,430] conteúdo da tela (esmaecido)
+[58,436] Desempenho
+[58,477] Configurações
+
+=== L05 · Perfil e conta (todos os perfis)
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[58,108] Visão geral
+[272,119] Perfil e conta
+[58,149] Minhas disciplinas
+[272,157] Compartilhado entre professor, aluno e gestor
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[875,246] Segurança e preferências
+[58,272] Estúdio de IA
+[875,281] Senha atual
+[332,286] Foto
+[58,313] Editor de materiais
+[888,314] ••••••••
+[58,354] Atividades e avaliações
+[297,356] Nome
+[875,357] Nova senha
+[310,389] Ana Souza
+[1129,390] 
+[58,395] Jogos ao vivo
+[297,432] E-mail
+[58,436] Desempenho
+[875,436] Autenticação em duas etapas
+[310,465] ana@colegio.edu
+[875,472] Receber resumo semanal por e-mail
+[58,477] Configurações
+[894,516] Sair da conta
+[315,518] Salvar
+
+=== L06 · Central de ajuda
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[58,108] Visão geral
+[272,119] Central de ajuda
+[58,149] Minhas disciplinas
+[272,157] Guias, perguntas frequentes e contato com o suporte
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[285,231] Buscar na ajuda...
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[293,352] Primeiros passos
+[581,352] Enviar conteúdos
+[869,352] Usar o Estúdio de IA
+[1157,352] Jogos ao vivo
+[58,354] Atividades e avaliações
+[293,380] 3 artigos
+[581,380] 3 artigos
+[869,380] 3 artigos
+[1157,380] 3 artigos
+[58,395] Jogos ao vivo
+[58,436] Desempenho
+[289,451] Pergunta
+[1231,451] Tema
+[58,477] Configurações
+[289,490] Como a IA usa meus documentos?
+[1231,490] Privacidade
+[289,531] Posso editar um material gerado?
+[1231,531] Editor
+[289,572] Como entrar em um jogo ao vivo?
+[1231,572] Jogos
+[290,636] Falar com o suporte
+
+=== L07 · Notificações (página completa)
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[58,108] Visão geral
+[272,119] Notificações
+[58,149] Minhas disciplinas
+[272,157] Avisos de processamento, publicações, prazos e jogos
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[335,235] Resumo de “Funções do 1º grau” pronto para revisão
+[1353,244] Novo
+[335,254] Há 1 h
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[335,321] Nova atividade publicada: Lista de exercícios
+[1353,330] Novo
+[335,340] Há 1 h
+[58,354] Atividades e avaliações
+[58,395] Jogos ao vivo
+[335,407] Jogo ao vivo hoje às 14h
+[335,426] Ontem
+[58,436] Desempenho
+[58,477] Configurações
+[335,493] Processamento do documento concluído
+[335,512] Ontem
+
+######## PAGE 02 · Professor
+
+=== P01 · Visão geral
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Bom dia, professor!
+[58,108] Visão geral
+[891,116] Adicionar conteúdo
+[1071,116] Gerar materiais com IA
+[1272,116] Criar jogo ao vivo
+[272,135] Acompanhe suas turmas e continue criando materiais.
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[291,196] Turmas ativas
+[579,196] Materiais criados
+[867,196] Atividades pendentes
+[1155,196] Jogos agendados
+[291,216] 04
+[579,216] 28
+[867,216] 03
+[1155,216] 02
+[58,231] Biblioteca de conteúdos
+[291,256] +1 neste mês
+[579,256] +6 esta semana
+[867,256] 2 vencem hoje
+[1155,256] próximo: sexta, 14h
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[272,314] Atividades para corrigir
+[968,316] Ver todas
+[1069,335] Desempenho recente das turmas
+[58,354] Atividades e avaliações
+[289,360] Atividade
+[707,360] Turma
+[809,360] Entregas
+[911,360] Prazo
+[58,395] Jogos ao vivo
+[289,402] Revisão de ciências
+[707,402] 8º A
+[809,402] 18/30
+[921,403] Hoje
+[58,436] Desempenho
+[289,450] Lista – Funções do 1º grau
+[707,450] 9º B
+[809,450] 25/32
+[921,451] Amanhã
+[58,477] Configurações
+[289,498] Simulado de História
+[707,498] 1º EM
+[809,498] 10/28
+[921,499] Sexta
+[1069,521] 8ºA
+[1114,521] 8ºB
+[1160,521] 9ºA
+[1205,521] 9ºB
+[1250,521] 1ºEM
+[1304,521] 2ºEM
+[1358,521] 3ºEM
+[272,546] Últimos materiais criados
+[942,548] Ver biblioteca
+[289,592] Material
+[749,592] Tipo
+[891,592] Status
+[1069,592] Ações rápidas
+[1162,631] Adicionar conteúdo
+[289,634] Funções do 1º grau
+[749,634] Resumo
+[901,635] Publicado
+[1150,679] Gerar materiais com IA
+[289,682] Revolução Francesa
+[749,682] Mapa mental
+[901,683] Rascunho
+[1169,727] Criar jogo ao vivo
+[289,730] Células e organelas
+[749,730] Flashcards
+[901,731] Em revisão
+
+=== P02 · Minhas disciplinas
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Minhas disciplinas
+[58,108] Visão geral
+[1274,116] + Nova disciplina
+[272,135] Organize o conhecimento por matéria e turma.
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[403,216] capa da disciplina
+[788,216] capa da disciplina
+[1174,216] capa da disciplina
+[58,231] Biblioteca de conteúdos
+[58,272] Estúdio de IA
+[291,286] Matemática
+[676,286] Ciências
+[1062,286] História
+[58,313] Editor de materiais
+[291,316] Turma 9º B · 24 conteúdos
+[676,316] Turma 8º A · 18 conteúdos
+[1062,316] Turma 1º EM · 15 conteúdos
+[291,340] Progresso dos alunos
+[592,340] 68%
+[676,340] Progresso dos alunos
+[978,340] 54%
+[1062,340] Progresso dos alunos
+[1364,340] 72%
+[58,354] Atividades e avaliações
+[301,383] IA: 4 materiais
+[413,383] Ativa
+[686,383] IA: 5 materiais
+[797,383] Ativa
+[1072,383] IA: 6 materiais
+[1183,383] Ativa
+[58,395] Jogos ao vivo
+[58,436] Desempenho
+[58,477] Configurações
+[403,484] capa da disciplina
+[788,484] capa da disciplina
+[291,554] Língua Portuguesa
+[676,554] Geografia
+[1176,564] + Nova disciplina
+[291,584] Turma 9º A · 21 conteúdos
+[676,584] Turma 8º B · 12 conteúdos
+[291,608] Progresso dos alunos
+[594,608] 61%
+[676,608] Progresso dos alunos
+[978,608] 47%
+[301,651] IA: 7 materiais
+[412,651] Ativa
+[686,651] IA: 8 materiais
+[797,651] Ativa
+
+=== P03 · Disciplina – aba Conteúdos
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Matemática · 9º B
+[58,108] Visão geral
+[1257,116] Adicionar conteúdo
+[272,135] Funções, geometria e álgebra · 24 conteúdos
+[58,149] Minhas disciplinas
+[288,187] Conteúdos
+[399,187] Materiais de estudo
+[568,187] Atividades
+[675,187] Jogos
+[752,187] Desempenho
+[877,187] Configurações
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[272,240] Assuntos e conteúdos
+[950,242] + Novo assunto
+[1089,261] Progresso dos alunos por assunto
+[58,272] Estúdio de IA
+[289,286] Assunto
+[627,286] Documentos
+[749,286] Materiais da IA
+[901,286] Status
+[58,313] Editor de materiais
+[289,328] Funções do 1º grau
+[627,328] 3
+[749,328] 6 gerados
+[911,329] Publicado
+[58,354] Atividades e avaliações
+[289,376] Funções do 2º grau
+[627,376] 2
+[749,376] 4 gerados
+[911,377] Em revisão
+[58,395] Jogos ao vivo
+[289,424] Geometria plana
+[627,424] 4
+[749,424] Nenhum ainda
+[911,425] Processando
+[58,436] Desempenho
+[1089,437] Fun1
+[1160,437] Fun2
+[1234,437] Geo
+[1303,437] Est
+[1367,437] Raz
+[289,472] Estatística básica
+[627,472] 1
+[749,472] 2 gerados
+[911,473] Rascunho
+[58,477] Configurações
+[1115,500] "Geometria plana" foi enviada. Revise o texto extraído antes de gerar materiais.
+[289,520] Razão e proporção
+[627,520] 2
+[749,520] 5 gerados
+[911,521] Publicado
+
+=== P04 · Disciplina – aba Materiais de estudo
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Matemática · 9º B
+[58,108] Visão geral
+[1302,116] Gerar com IA
+[272,135] Funções, geometria e álgebra · 24 conteúdos
+[58,149] Minhas disciplinas
+[288,187] Conteúdos
+[398,187] Materiais de estudo
+[569,187] Atividades
+[676,187] Jogos
+[753,187] Desempenho
+[878,187] Configurações
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[287,250] Todos
+[354,250] Resumos
+[440,250] Mapas mentais
+[564,250] Flashcards
+[661,250] Exercícios
+[1141,250] Buscar material...
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[58,354] Atividades e avaliações
+[407,354] pré-visualização
+[792,354] pré-visualização
+[1178,354] pré-visualização
+[58,395] Jogos ao vivo
+[58,436] Desempenho
+[299,441] Resumo
+[374,441] Publicado
+[684,441] Resumo
+[759,441] Em revisão
+[1070,441] Mapa mental
+[1173,441] Publicado
+[289,470] Resumo simplificado
+[674,470] Resumo aprofundado
+[1060,470] Mapa mental – Funções
+[58,477] Configurações
+[465,505] Despublicar
+[850,505] Publicar
+[1236,505] Despublicar
+[302,506] Editar
+[371,506] Regenerar
+[687,506] Editar
+[756,506] Regenerar
+[1073,506] Editar
+[1142,506] Regenerar
+[407,622] pré-visualização
+[792,622] pré-visualização
+[1178,622] pré-visualização
+[299,710] Flashcards
+[391,710] Rascunho
+[684,710] Exercícios
+[772,710] Publicado
+[1070,710] Roteiro
+[1140,710] Rascunho
+[289,739] Flashcards – Funções (24 cartões)
+[674,739] Lista de exercícios (10 questões)
+[1060,739] Roteiro de revisão
+[465,774] Publicar
+[850,774] Despublicar
+[1236,774] Publicar
+[302,775] Editar
+[371,775] Regenerar
+[687,775] Editar
+[756,775] Regenerar
+[1073,775] Editar
+[1142,775] Regenerar
+
+=== P05 · Turmas e alunos
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Turmas e alunos
+[58,108] Visão geral
+[1138,116] + Nova turma
+[1276,116] Adicionar alunos
+[272,135] Acompanhe o ritmo de cada turma.
+[58,149] Minhas disciplinas
+[592,180] Turma 9º B · Matemática
+[1278,183] Convidar por código
+[1167,184] Exportar lista
+[58,190] Turmas e alunos
+[287,192] Minhas turmas
+[300,227] 9º B · Matemática
+[58,231] Biblioteca de conteúdos
+[611,241] Alunos
+[887,241] Média da turma
+[1163,241] Participação
+[300,246] 32 alunos
+[611,261] 32
+[887,261] 7,4
+[1163,261] 86%
+[58,272] Estúdio de IA
+[299,288] 8º A · Ciências
+[611,301] 2 novos
+[887,301] +0,3
+[1163,301] últimos 7 dias
+[299,307] 30 alunos
+[58,313] Editor de materiais
+[299,348] 1º EM · História
+[58,354] Atividades e avaliações
+[609,362] Aluno
+[885,362] Progresso
+[1047,362] Média
+[1129,362] Última atividade
+[1281,362] Situação
+[299,367] 28 alunos
+[58,395] Jogos ao vivo
+[609,404] Ana Beatriz
+[1047,404] 9,1
+[1129,404] hoje
+[1291,405] No ritmo
+[299,408] 9º A · Português
+[299,427] 31 alunos
+[58,436] Desempenho
+[609,452] Bruno Lima
+[1047,452] 6,8
+[1129,452] ontem
+[1291,453] Atenção
+[58,477] Configurações
+[609,500] Carla Dias
+[1047,500] 4,9
+[1129,500] há 5 dias
+[1291,501] Reforço
+[609,548] Diego Souza
+[1047,548] 7,6
+[1129,548] hoje
+[1291,549] No ritmo
+[609,596] Elisa Ramos
+[1047,596] 7,0
+[1129,596] ontem
+[1291,597] No ritmo
+[609,644] Felipe Costa
+[1047,644] 5,5
+[1129,644] há 3 dias
+[1291,645] Atenção
+
+=== P06 · Biblioteca de conteúdos
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Biblioteca de conteúdos
+[58,108] Visão geral
+[1279,116] Enviar conteúdo
+[272,135] Envie, organize e consulte os documentos das suas disciplinas.
+[58,149] Minhas disciplinas
+[285,187] Buscar documento...
+[595,187] Disciplina
+[703,187] Turma
+[791,187] Status da IA
+[662,188] ▾
+[750,188] ▾
+[874,188] ▾
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[730,262] Arraste e solte arquivos aqui
+[58,272] Estúdio de IA
+[724,290] PDF, DOCX, PPTX ou TXT · até 50 MB
+[58,313] Editor de materiais
+[773,324] Selecionar arquivos
+[58,354] Atividades e avaliações
+[58,395] Jogos ao vivo
+[272,402] Histórico de documentos enviados
+[58,436] Desempenho
+[289,458] Documento
+[773,458] Disciplina
+[895,458] Turma
+[977,458] Enviado em
+[1099,458] Status da IA
+[1261,458] Ações
+[58,477] Configurações
+[289,504] Funções do 1º grau.pdf
+[773,504] Matemática
+[895,504] 9º B
+[977,504] 20/10/2026
+[1109,504] Processado
+[1274,504] Abrir original
+[289,558] Geometria plana.docx
+[773,558] Matemática
+[895,558] 9º B
+[977,558] 21/10/2026
+[1109,558] Processando 64%
+[1274,558] Ver andamento
+[289,612] Revolução Francesa.pdf
+[773,612] História
+[895,612] 1º EM
+[977,612] 18/10/2026
+[1109,612] Processado
+[1274,612] Abrir original
+[289,666] Células e organelas.pptx
+[773,666] Ciências
+[895,666] 8º A
+[977,666] 15/10/2026
+[1109,666] Erro na leitura
+[1274,666] Corrigir
+[289,720] Sintaxe – resumo.docx
+[773,720] Português
+[895,720] 9º A
+[977,720] 22/10/2026
+[1109,720] Aguardando
+[1274,720] Abrir original
+[319,795] Abra o documento original e corrija o texto extraído antes de gerar os materiais.
+
+=== P07 · Upload de conteúdo
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Enviar conteúdo
+[58,108] Visão geral
+[272,135] Envie o material; a IA vai ler, organizar e preparar o pacote de aprendizagem.
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[1013,202] Informações do conteúdo
+[58,231] Biblioteca de conteúdos
+[1013,237] Nome do conteúdo
+[1026,270] Ex.: Geometria plana – resumo
+[58,272] Estúdio de IA
+[496,284] Arraste e solte arquivos aqui
+[58,313] Editor de materiais
+[1013,313] Disciplina
+[476,316] PDF, DOCX, PPTX, TXT · até 50 MB por arquivo
+[1026,346] Selecione ▾
+[58,354] Atividades e avaliações
+[553,354] Selecionar arquivos
+[1013,389] Turma
+[58,395] Jogos ao vivo
+[1026,422] Selecione ▾
+[58,436] Desempenho
+[272,439] Arquivos selecionados
+[1013,465] Assunto
+[58,477] Configurações
+[335,490] Geometria plana.docx
+[1026,498] Ex.: Áreas e perímetros
+[884,500] Concluído
+[335,509] 2,4 MB · enviado
+[1013,541] Observações para a IA (opcional)
+[335,568] Exercícios extras.pdf
+[1026,574] Ex.: priorizar definições e exemplos do 9º ano
+[335,587] 8,1 MB · enviando 62%
+[319,647] Resumos extensos podem ser colados direto no editor de texto, sem arquivo.
+[1239,666] Enviar e processar
+[1131,667] Cancelar
+
+=== P08 · Processamento da IA
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Geometria plana.docx
+[58,108] Visão geral
+[1220,116] Abrir documento original
+[272,135] Matemática · 9º B · enviado em 21/10/2026
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[989,200] Documento original
+[297,202] Andamento do processamento
+[1330,202] Editável
+[58,231] Biblioteca de conteúdos
+[337,246] Upload concluído
+[305,247] ✓
+[854,248] Concluído
+[58,272] Estúdio de IA
+[337,292] Leitura e extração do texto
+[305,293] ✓
+[854,294] Concluído
+[58,313] Editor de materiais
+[337,333] Identificação de tópicos e conceitos
+[306,341] 3
+[790,342] Em andamento · 64%
+[58,354] Atividades e avaliações
+[337,388] Preparação do pacote de aprendizagem
+[306,389] 4
+[841,390] Aguardando
+[58,395] Jogos ao vivo
+[1110,398] prévia do documento / com texto extraído editável
+[58,436] Desempenho
+[58,477] Configurações
+[297,477] Tópicos e conceitos encontrados pela IA
+[307,512] Polígonos
+[393,512] Perímetro
+[478,512] Área do triângulo
+[606,512] Área do círculo
+[722,512] Teorema de Pitágoras
+[486,582] Ir para o Estúdio de IA
+[291,583] Revisar texto extraído
+[1015,645] Corrija trechos mal lidos antes de gerar os materiais.
+
+=== P09 · Estúdio de IA
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Estúdio de IA
+[58,108] Visão geral
+[272,135] Transforme o conteúdo em diferentes recursos de aprendizagem.
+[58,149] Minhas disciplinas
+[652,177] 2. Escolha o que gerar
+[58,190] Turmas e alunos
+[295,200] 1. Origem e público
+[58,231] Biblioteca de conteúdos
+[295,233] Material de origem
+[308,266] Geometria plana.docx ▾
+[58,272] Estúdio de IA
+[864,279] Resumo aprofundado
+[672,280] Resumo simplificado
+[1056,280] Mapa mental
+[1249,280] Flashcards
+[1056,308] Conceitos conectados visualmente
+[1249,308] Cartões para memorizar
+[295,309] Turma
+[58,313] Editor de materiais
+[864,325] Texto completo com exemplos
+[672,326] Versão curta para estudo rápido
+[308,342] 9º B ▾
+[58,354] Atividades e avaliações
+[295,385] Nível de dificuldade
+[58,395] Jogos ao vivo
+[310,415] Fácil
+[368,415] Médio
+[435,415] Difícil
+[58,436] Desempenho
+[295,454] Instruções extras (opcional)
+[671,463] Lista de exercícios
+[864,463] Simulado ou avaliação
+[1056,463] Questionário para jogo
+[1248,463] Roteiro de revisão
+[58,477] Configurações
+[308,487] Ex.: usar exemplos do cotidiano
+[671,491] Questões para praticar
+[1248,491] Plano de estudo antes da prova
+[864,509] Prova com correção automática
+[1056,509] Perguntas para jogos ao vivo
+[353,572] Gerar materiais selecionados
+[669,593] 3 recursos selecionados · tempo estimado: 2 min · o resultado abre no editor para revisão
+[319,654] A IA cria um rascunho. Você revisa e edita antes de publicar.
+
+=== P10 · Editor – Resumo
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Resumo simplificado · Funções do 1º grau
+[58,108] Visão geral
+[272,135] Gerado pela IA a partir de "Funções do 1º grau.pdf"
+[58,149] Minhas disciplinas
+[288,187] Resumo
+[379,187] Mapa mental
+[502,187] Flashcards
+[611,187] Exercícios
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[1180,250] Salvar rascunho
+[1334,250] Publicar
+[959,251] Regenerar
+[1076,251] Exportar
+[287,252] Visualizar
+[378,252] Editar
+[444,252] Responder
+[550,252] Rascunho
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[289,320] Tópicos
+[1127,322] Ajustes da IA
+[592,338] B
+[628,338] I
+[660,338] U
+[697,338] H1
+[740,338] H2
+[785,338] • Lista
+[850,338] Imagem
+[58,354] Atividades e avaliações
+[1127,354] Dificuldade
+[302,355] O que é uma função?
+[581,373] O que é uma função?
+[1142,384] Fácil
+[1200,384] Médio
+[1267,384] Difícil
+[58,395] Jogos ao vivo
+[301,398] Gráfico
+[581,416] Uma função estabelece uma relação entre valores de entrada e valores de saída. No primeiro grau, ela pode ser representada por f(x) = ax + b, com a diferente de zero.
+[1127,423] Tamanho do resumo
+[58,436] Desempenho
+[301,440] Coeficientes a e b
+[1142,453] Curto
+[1206,453] Médio
+[1273,453] Longo
+[58,477] Configurações
+[301,482] Exemplos resolvidos
+[1127,494] Incluir exemplos
+[308,522] + Adicionar tópico
+[1127,530] Incluir glossário
+[712,564] gráfico sugerido pela IA (substituível)
+[1200,575] Regenerar seção
+[1155,651] Nada é publicado automaticamente. Revise antes de publicar.
+[581,656] Coeficientes a e b
+[581,692] O coeficiente a indica a inclinação da reta; o coeficiente b indica onde a reta cruza o eixo y.
+
+=== P11 · Editor – Mapa mental
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Mapa mental · Funções do 1º grau
+[58,108] Visão geral
+[272,135] Gerado pela IA a partir de "Funções do 1º grau.pdf"
+[58,149] Minhas disciplinas
+[288,187] Resumo
+[378,187] Mapa mental
+[502,187] Flashcards
+[611,187] Exercícios
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[1180,250] Salvar rascunho
+[1334,250] Publicar
+[959,251] Regenerar
+[1076,251] Exportar
+[287,252] Visualizar
+[378,252] Editar
+[444,252] Responder
+[550,252] Rascunho
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[1127,322] Nó selecionado
+[302,327] + Nó
+[364,327] Conectar
+[452,327] Cor
+[507,327] Desfazer
+[594,327] Refazer
+[673,327] Ajustar à tela
+[58,354] Atividades e avaliações
+[1127,354] Texto do nó
+[1140,387] Coeficiente a
+[58,395] Jogos ao vivo
+[384,425] Definição
+[893,425] Gráfico: reta
+[1127,430] Descrição (aparece ao clicar)
+[58,436] Desempenho
+[1140,463] A inclinação da reta...
+[58,477] Configurações
+[1192,546] + Adicionar nó filho
+[1224,599] Excluir nó
+[372,603] Coeficiente a
+[624,603] Função do 1º grau
+[890,603] Coeficiente b
+[1127,681] Ajustes da IA
+[1127,711] Nível de detalhe
+[1142,741] Básico
+[1212,741] Médio
+[1279,741] Detalhado
+[368,781] Raiz da função
+[897,781] Aplicações
+[1202,789] Regenerar mapa
+
+=== P12 · Editor – Flashcards
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Flashcards · Funções do 1º grau
+[58,108] Visão geral
+[272,135] 24 cartões gerados pela IA
+[58,149] Minhas disciplinas
+[288,187] Resumo
+[378,187] Mapa mental
+[501,187] Flashcards
+[612,187] Exercícios
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[1180,250] Salvar rascunho
+[1334,250] Publicar
+[959,251] Regenerar
+[1076,251] Exportar
+[287,252] Visualizar
+[378,252] Editar
+[444,252] Responder
+[550,252] Rascunho
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[287,318] Cartões (24)
+[512,319] + Novo
+[1147,322] Ajustes da IA
+[698,336] Frente
+[966,336] Verso
+[299,352] 1. O que é uma função?
+[58,354] Atividades e avaliações
+[1147,354] Quantidade de cartões
+[621,367] Defina o coeficiente a em f(x) = ax + b
+[887,367] É a inclinação da reta: indica quanto y varia quando x aumenta 1 unidade.
+[1160,387] 24
+[58,395] Jogos ao vivo
+[300,395] 2. Defina coeficiente a
+[1147,430] Dificuldade
+[58,436] Desempenho
+[299,438] 3. O que indica o b?
+[1162,460] Fácil
+[1220,460] Médio
+[1287,460] Difícil
+[58,477] Configurações
+[299,480] 4. Raiz da função
+[1205,510] Regenerar cartões
+[613,521] Frente
+[299,522] 5. Gráfico crescente
+[626,554] Defina o coeficiente a em f(x) = ax + b
+[299,564] 6. Domínio e imagem
+[613,595] Verso
+[626,628] É a inclinação da reta...
+[626,705] Duplicar
+[709,705] Mover
+[780,705] Excluir
+
+=== P13 · Editor – Exercícios e simulado
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Lista de exercícios · Funções do 1º grau
+[58,108] Visão geral
+[272,135] 10 questões geradas pela IA
+[58,149] Minhas disciplinas
+[288,187] Resumo
+[378,187] Mapa mental
+[501,187] Flashcards
+[610,187] Exercícios
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[1180,250] Salvar rascunho
+[1334,250] Publicar
+[959,251] Regenerar
+[1076,251] Exportar
+[287,252] Visualizar
+[378,252] Editar
+[444,252] Responder
+[550,252] Rascunho
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[287,318] Questões (10)
+[513,319] + Nova
+[1137,322] Ajustes da IA
+[617,330] Questão 3 de 10
+[761,332] Múltipla escolha
+[884,332] Nível médio
+[299,352] Q1 · Múltipla escolha
+[58,354] Atividades e avaliações
+[1137,354] Dificuldade
+[617,365] Enunciado
+[1152,384] Fácil
+[1210,384] Médio
+[1277,384] Difícil
+[299,394] Q2 · Verdadeiro/Falso
+[58,395] Jogos ao vivo
+[630,398] Qual é o coeficiente angular da função f(x) = 3x − 5?
+[1137,423] Quantidade de questões
+[58,436] Desempenho
+[300,437] Q3 · Múltipla escolha
+[1150,456] 10
+[58,477] Configurações
+[299,480] Q4 · Múltipla escolha
+[662,482] A) −5
+[1137,499] Tipos de questão
+[299,522] Q5 · Discursiva
+[1165,528] Múltipla escolha
+[662,541] B) 3
+[1003,542] Correta
+[1165,560] Verdadeiro ou falso
+[299,564] Q6 · Múltipla escolha
+[1165,592] Discursiva
+[662,600] C) 5
+[1137,626] Salvar no banco de questões
+[662,656] D) 0
+[1212,671] Regenerar lista
+[617,699] Explicação mostrada ao aluno
+[630,732] O coeficiente angular é o número que multiplica x.
+[630,801] Duplicar
+[713,801] Regenerar questão
+[858,801] Excluir
+
+=== P14 · Publicação de materiais
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Publicar materiais
+[58,108] Visão geral
+[272,135] Revise e defina quem poderá acessar.
+[58,149] Minhas disciplinas
+[310,182] Materiais
+[474,182] Turmas
+[627,182] Regras de acesso
+[848,182] Revisar e publicar
+[282,183] 1
+[446,183] 2
+[598,183] 3
+[820,183] 4
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[295,252] Materiais selecionados
+[680,252] Publicar para
+[1066,252] Regras de acesso
+[58,272] Estúdio de IA
+[1066,285] Liberar em
+[1231,285] Prazo (atividades)
+[708,286] 9º B · Matemática
+[944,286] 32 alunos
+[323,288] Resumo simplificado
+[557,289] Resumo
+[58,313] Editor de materiais
+[708,318] 9º A · Matemática
+[946,318] 31 alunos
+[1079,318] 22/10/2026 08:00
+[1244,318] 29/10/2026
+[323,325] Mapa mental
+[571,326] Mapa
+[708,350] 8º A · Ciências
+[944,350] 30 alunos
+[58,354] Atividades e avaliações
+[1066,361] Tentativas
+[1231,361] Nota máxima
+[323,362] Flashcards (24)
+[557,363] Cartões
+[708,382] Somente alunos específicos
+[1079,394] 2
+[1244,394] 10
+[58,395] Jogos ao vivo
+[323,399] Lista de exercícios (10)
+[548,400] Atividade
+[58,436] Desempenho
+[323,436] Roteiro de revisão
+[562,437] Roteiro
+[1066,437] Correção automática
+[1066,456] Questões objetivas
+[58,477] Configurações
+[1066,488] Mostrar gabarito após o prazo
+[1066,524] Notificar alunos
+[319,605] Nada será publicado sem a sua confirmação. Os alunos só veem materiais publicados.
+[1247,670] Publicar para 1 turma
+[291,671] ← Voltar
+[1049,671] Salvar como rascunho
+
+=== P15 · Atividades e avaliações
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Atividades e avaliações
+[58,108] Visão geral
+[1130,116] Criar manualmente
+[1306,116] Criar com IA
+[272,135] Monte tarefas para dentro e fora da aula.
+[58,149] Minhas disciplinas
+[288,187] Atividades
+[396,187] Banco de questões
+[561,187] Avaliações
+[669,187] Rascunhos
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[285,250] Buscar atividade...
+[555,250] Turma
+[602,250] ▾
+[643,250] Status
+[691,250] ▾
+[1069,261] Questões com maior índice de erro
+[58,272] Estúdio de IA
+[1069,291] Q5 · Geometria plana
+[1312,291] 68% erraram
+[289,301] Atividade
+[543,301] Turma
+[625,301] Tipo
+[737,301] Prazo
+[819,301] Entregas
+[911,301] Status
+[58,313] Editor de materiais
+[1069,333] Q8 · Função do 2º grau
+[1313,333] 57% erraram
+[289,344] Lista – Funções do 1º grau
+[543,344] 9º B
+[625,344] Exercícios
+[737,344] 29/10
+[819,344] 25/32
+[921,344] Aberta
+[58,354] Atividades e avaliações
+[1069,375] Q2 · Estatística
+[1312,375] 44% erraram
+[289,392] Revisão de ciências
+[543,392] 8º A
+[625,392] Questionário
+[737,392] 24/10
+[819,392] 18/30
+[921,392] Vence hoje
+[58,395] Jogos ao vivo
+[1088,428] Ver no banco de questões
+[58,436] Desempenho
+[289,440] Simulado de História
+[543,440] 1º EM
+[625,440] Simulado
+[737,440] 25/10
+[819,440] 10/28
+[921,440] Aberta
+[58,477] Configurações
+[289,488] Prova bimestral
+[543,488] 9º A
+[625,488] Avaliação
+[737,488] 30/10
+[819,488] 0/31
+[921,488] Agendada
+[289,536] Lista – Geometria
+[543,536] 9º B
+[625,536] Exercícios
+[737,536] —
+[819,536] —
+[921,536] Rascunho
+
+=== P16 · Correção e respostas dos alunos
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Correção · Revisão de ciências
+[58,108] Visão geral
+[272,135] 8º A · 18 de 30 entregas · 7 questões corrigidas automaticamente
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[287,192] Entregas (18)
+[1147,196] Resumo da atividade
+[617,204] Questão 8 · Discursiva
+[809,206] Valor: 2,0 pts
+[1147,224] Média parcial
+[1371,224] 7,2
+[299,229] Ana Beatriz
+[481,230] Corrigida
+[58,231] Biblioteca de conteúdos
+[617,239] Explique, com suas palavras, o que é a fotossíntese e por que ela é importante para os seres vivos.
+[1147,250] Correção automática
+[1288,250] 7 de 8 questões
+[58,272] Estúdio de IA
+[1147,276] Pendentes de correção
+[1310,276] 11 respostas
+[300,279] Bruno Lima
+[478,280] Pendente
+[58,313] Editor de materiais
+[634,316] Resposta de Bruno Lima
+[299,329] Carla Dias
+[479,330] Pendente
+[634,339] É o processo em que as plantas usam a luz do sol para produzir seu alimento e liberar oxigênio, que é essencial para a respiração.
+[58,354] Atividades e avaliações
+[299,378] Diego Souza
+[481,379] Corrigida
+[58,395] Jogos ao vivo
+[299,427] Elisa Ramos
+[479,428] Pendente
+[58,436] Desempenho
+[634,450] Critérios sugeridos pela IA (editáveis)
+[634,471] • Cita luz, água e gás carbônico (0,8) / • Menciona produção de glicose/oxigênio (0,8) / • Explica a importância (0,4)
+[58,477] Configurações
+[617,562] Nota
+[856,562] Feedback ao aluno
+[630,595] 1,6 / 2,0
+[869,595] Boa resposta! Faltou citar a glicose.
+[894,665] Salvar e ir para o próximo
+[770,666] Salvar nota
+
+=== P17 · Desempenho
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Desempenho
+[58,108] Visão geral
+[1088,117] 9º B
+[1164,117] Matemática
+[1286,117] Últimos 30 dias
+[1123,118] ▾
+[1245,118] ▾
+[1390,118] ▾
+[272,135] Mostra se os alunos realmente aprenderam.
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[291,196] Conclusão das atividades
+[579,196] Média da turma
+[867,196] Alunos que precisam de reforço
+[1155,196] Questões mais difíceis
+[291,216] 82%
+[579,216] 7,4
+[867,216] 05
+[1155,216] 08
+[58,231] Biblioteca de conteúdos
+[291,256] +4 p.p.
+[579,256] +0,3
+[867,256] 2 a mais que o mês anterior
+[1155,256] abaixo de 50% de acerto
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[293,335] Evolução da turma (média semanal)
+[871,335] Acertos por assunto
+[58,354] Atividades e avaliações
+[871,367] Funções do 1º grau
+[1358,367] 84%
+[58,395] Jogos ao vivo
+[871,397] Estatística básica
+[1360,397] 72%
+[871,427] Funções do 2º grau
+[1361,427] 61%
+[58,436] Desempenho
+[871,457] Geometria plana
+[1358,457] 48%
+[58,477] Configurações
+[293,541] S1
+[376,541] S2
+[459,541] S3
+[544,541] S4
+[628,541] S5
+[712,541] S6
+[795,541] S7
+[272,599] Alunos que precisam de reforço
+[850,599] Questões mais difíceis
+[289,643] Aluno
+[431,643] Assunto com dificuldade
+[611,643] Média
+[683,643] Ação
+[867,643] Questão
+[949,643] Assunto
+[1291,643] % de acerto
+[867,682] Q5
+[949,682] Geometria plana
+[1291,682] 32%
+[289,688] Carla Dias
+[431,688] Geometria plana
+[611,688] 4,9
+[696,689] Sugerir revisão
+[867,723] Q8
+[949,723] Funções do 2º grau
+[1291,723] 43%
+[289,742] Felipe Costa
+[431,742] Funções do 2º grau
+[611,742] 5,5
+[696,743] Sugerir revisão
+[867,764] Q2
+[949,764] Estatística
+[1291,764] 48%
+[289,796] Bruno Lima
+[431,796] Geometria plana
+[611,796] 5,8
+[696,797] Sugerir revisão
+[293,888] Sugestões de revisão baseadas nos erros
+[1159,888] Gerar roteiro de revisão com IA
+[293,927] • Reforçar “Geometria plana” com flashcards e 5 exercícios guiados. / • Retomar “Funções do 2º grau” em um jogo ao vivo de revisão.
+[319,1031] O ranking dos jogos fica em Jogos ao vivo: velocidade de resposta não é o mesmo que domínio do conteúdo.
+
+=== P18 · Configurações do professor
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Configurações
+[58,108] Visão geral
+[272,135] Perfil, notificações e preferências de uso da IA.
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[295,200] Perfil
+[873,200] Preferências da IA
+[58,231] Biblioteca de conteúdos
+[873,233] Tom dos textos gerados
+[392,256] Trocar foto
+[888,263] Simples
+[966,263] Equilibrado
+[1065,263] Técnico
+[58,272] Estúdio de IA
+[873,302] Idioma
+[295,311] Nome
+[58,313] Editor de materiais
+[886,335] Português (Brasil) ▾
+[308,344] Ana Souza
+[58,354] Atividades e avaliações
+[873,378] Nível padrão de dificuldade
+[295,387] E-mail
+[58,395] Jogos ao vivo
+[886,411] Médio ▾
+[308,420] ana.souza@colegio.edu.br
+[58,436] Desempenho
+[873,454] Exigir revisão antes de publicar
+[295,463] Disciplinas
+[873,473] Regra da plataforma — não pode ser desativada
+[58,477] Configurações
+[308,496] Matemática
+[510,549] Salvar perfil
+[873,554] Privacidade e dados
+[873,590] Permitir uso dos meus conteúdos para melhorar a IA da instituição
+[892,634] Exportar meus dados
+[295,642] Notificações
+[295,678] IA terminou de processar um conteúdo
+[295,714] Novas entregas de alunos
+[295,750] Lembretes de jogos agendados
+[295,786] Resumo semanal por e-mail
+
+=== P03b · Disciplina – aba Atividades
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Matemática · 9º B
+[58,108] Visão geral
+[1257,116] Adicionar conteúdo
+[272,135] Funções, geometria e álgebra · 24 conteúdos
+[58,149] Minhas disciplinas
+[288,187] Conteúdos
+[398,187] Materiais de estudo
+[567,187] Atividades
+[675,187] Jogos
+[752,187] Desempenho
+[877,187] Configurações
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[291,259] Atividades ativas
+[675,259] Entregas recebidas
+[1059,259] Média da turma
+[58,272] Estúdio de IA
+[291,279] 03
+[675,279] 58 / 64
+[1059,279] 7,4
+[58,313] Editor de materiais
+[291,319] 1 vence sexta
+[675,319] 91% da turma
+[1059,319] +0,3 vs. anterior
+[58,354] Atividades e avaliações
+[272,385] Atividades da disciplina
+[1289,387] Nova atividade
+[58,395] Jogos ao vivo
+[58,436] Desempenho
+[289,449] Atividade
+[853,449] Tipo
+[975,449] Prazo
+[1097,449] Entregas
+[1199,449] Média
+[1281,449] Status
+[58,477] Configurações
+[289,492] Lista – Funções do 1º grau
+[853,492] Exercícios
+[975,492] Sex, 25/10
+[1097,492] 28 / 32
+[1199,492] 7,8
+[1291,492] Publicado
+[289,540] Simulado – Geometria plana
+[853,540] Simulado
+[975,540] Qua, 30/10
+[1097,540] 12 / 32
+[1199,540] —
+[1291,540] Publicado
+[289,588] Questionário – Equações
+[853,588] Questionário
+[975,588] —
+[1097,588] —
+[1199,588] —
+[1291,588] Rascunho
+[289,636] Prova bimestral
+[853,636] Avaliação
+[975,636] Seg, 04/11
+[1097,636] —
+[1199,636] —
+[1291,636] Agendado
+
+=== P03c · Disciplina – aba Jogos
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Matemática · 9º B
+[58,108] Visão geral
+[1257,116] Adicionar conteúdo
+[272,135] Funções, geometria e álgebra · 24 conteúdos
+[58,149] Minhas disciplinas
+[288,187] Conteúdos
+[398,187] Materiais de estudo
+[567,187] Atividades
+[674,187] Jogos
+[752,187] Desempenho
+[877,187] Configurações
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[272,248] Jogos desta disciplina
+[1272,250] Criar jogo ao vivo
+[58,272] Estúdio de IA
+[289,312] Jogo
+[803,312] Modo
+[935,312] Perguntas
+[1037,312] Data
+[1159,312] Participantes
+[1281,312] Status
+[58,313] Editor de materiais
+[58,354] Atividades e avaliações
+[289,354] Revisão de funções
+[803,354] Competitivo
+[935,354] 18
+[1037,354] Hoje, 14h
+[1159,354] —
+[1291,355] Agendado
+[58,395] Jogos ao vivo
+[289,402] Desafio de geometria
+[803,402] Colaborativo
+[935,402] 12
+[1037,402] Ontem
+[1159,402] 29
+[1291,403] Encerrado
+[58,436] Desempenho
+[289,450] Quiz – Equações
+[803,450] Competitivo
+[935,450] 15
+[1037,450] Rascunho
+[1159,450] —
+[1291,451] Rascunho
+[58,477] Configurações
+[319,523] Os jogos reutilizam as questões já revisadas e publicadas pelo professor.
+
+=== P03d · Disciplina – aba Desempenho
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Matemática · 9º B
+[58,108] Visão geral
+[1257,116] Adicionar conteúdo
+[272,135] Funções, geometria e álgebra · 24 conteúdos
+[58,149] Minhas disciplinas
+[288,187] Conteúdos
+[398,187] Materiais de estudo
+[567,187] Atividades
+[674,187] Jogos
+[751,187] Desempenho
+[877,187] Configurações
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[291,259] Conclusão das atividades
+[675,259] Acertos médios
+[1059,259] Alunos em reforço
+[58,272] Estúdio de IA
+[291,279] 86%
+[675,279] 74%
+[1059,279] 05
+[58,313] Editor de materiais
+[291,319] +4% no mês
+[675,319] +2%
+[1059,319] 3 sem acesso há 7 dias
+[58,354] Atividades e avaliações
+[58,395] Jogos ao vivo
+[293,398] Acertos por assunto
+[869,398] Evolução da turma
+[58,436] Desempenho
+[58,477] Configurações
+[293,604] Funções
+[420,604] Equações
+[554,604] Geom.
+[670,604] Áreas
+[783,604] Prop.
+[869,604] Set
+[992,604] Out
+[1116,604] Nov
+[1242,604] Dez
+[1368,604] Jan
+[289,673] Questão
+[1069,673] Assunto
+[1281,673] Taxa de erro
+[289,712] Q7 · Raiz da função
+[1069,712] Funções do 1º grau
+[1281,712] 58%
+[289,753] Q12 · Área do trapézio
+[1069,753] Geometria plana
+[1281,753] 52%
+[289,794] Q3 · Coeficiente b
+[1069,794] Funções do 1º grau
+[1281,794] 47%
+
+=== P05b · Turma – perfil do aluno
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Lucas Almeida · 9º B
+[58,108] Visão geral
+[1152,116] Voltar à turma
+[1295,116] Enviar reforço
+[272,135] Visão individual de desempenho
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[291,196] Conclusão
+[579,196] Acertos
+[867,196] Jogos disputados
+[1155,196] Último acesso
+[291,216] 88%
+[579,216] 71%
+[867,216] 06
+[1155,216] Hoje
+[58,231] Biblioteca de conteúdos
+[291,256] +6%
+[579,256] Funções: 58%
+[867,256] 2 no pódio
+[1155,256] 10:42
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[293,335] Evolução mensal
+[869,335] Acertos por assunto
+[58,354] Atividades e avaliações
+[58,395] Jogos ao vivo
+[58,436] Desempenho
+[58,477] Configurações
+[293,541] Set
+[416,541] Out
+[540,541] Nov
+[666,541] Dez
+[792,541] Jan
+[869,541] Funções
+[1033,541] Equações
+[1205,541] Geom.
+[1359,541] Prop.
+[319,614] Sugestão de revisão: reforçar “Raiz da função” e “Coeficiente b” com flashcards e 5 exercícios.
+[289,680] Atividade
+[1149,680] Entrega
+[1301,680] Nota
+[289,719] Lista – Funções do 1º grau
+[1149,719] Entregue
+[1301,719] 8,0
+[289,760] Simulado – Geometria
+[1149,760] Pendente
+[1301,760] —
+[289,801] Desafio ao vivo – Revisão
+[1149,801] Participou
+[1301,801] Top 3
+
+=== P03e · Disciplina – aba Configurações
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Matemática · 9º B
+[58,108] Visão geral
+[1257,116] Adicionar conteúdo
+[272,135] Funções, geometria e álgebra · 24 conteúdos
+[58,149] Minhas disciplinas
+[288,187] Conteúdos
+[398,187] Materiais de estudo
+[567,187] Atividades
+[674,187] Jogos
+[751,187] Desempenho
+[876,187] Configurações
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[297,265] Dados da disciplina
+[875,265] Preferências de materiais e IA
+[58,272] Estúdio de IA
+[297,300] Nome da disciplina
+[875,302] Exigir revisão do professor antes de publicar
+[58,313] Editor de materiais
+[875,321] Obrigatório: a IA nunca publica sozinha
+[310,333] Matemática
+[58,354] Atividades e avaliações
+[875,354] Notificar alunos ao publicar novo material
+[297,376] Turmas associadas
+[875,392] Permitir uso de materiais em jogos
+[58,395] Jogos ao vivo
+[310,409] 9º B · 9º C
+[58,436] Desempenho
+[893,438] Salvar alterações
+[297,452] Descrição
+[58,477] Configurações
+[310,485] Resumo da disciplina...
+[894,492] Arquivar disciplina
+
+######## PAGE 03 · Aluno
+
+=== A01 · Início
+[1316,18] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,34] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Minha aprendizagem
+[58,108] Início
+[272,135] Continue de onde você parou.
+[58,149] Minhas matérias
+[58,190] Estudar
+[879,202] Continuar estudando
+[301,206] Olá! Vamos aprender?
+[58,231] Mapas mentais
+[889,232] Matemática
+[301,250] SEU PROGRESSO
+[879,261] Funções do primeiro grau
+[58,272] Flashcards
+[301,273] 68%
+[879,298] Resumo · 8 minutos
+[413,299] Progresso da semana
+[58,313] Atividades
+[311,340] 7 dias seguidos
+[430,340] Nível 5
+[897,352] Continuar
+[58,354] Jogos
+[58,395] Meu desempenho
+[272,428] Aprenda de outras formas
+[301,510] ícone
+[589,510] ícone
+[877,510] ícone
+[1165,510] ícone
+[293,552] Mapas mentais
+[581,552] Flashcards
+[869,552] Exercícios
+[1157,552] Desafios
+[293,583] Visualize os conceitos.
+[581,583] Revise e memorize.
+[869,583] Pratique o conteúdo.
+[1157,583] Teste o que aprendeu.
+[272,644] Suas próximas atividades
+[988,644] Recomendado para você
+[908,646] Ver todas
+[335,691] Revisão de ciências
+[887,700] Pendente
+[1019,702] Revisão sugerida
+[335,710] Prazo: sexta-feira
+[1009,731] Funções do 2º grau
+[1009,763] Você errou 3 questões deste assunto. Revise com flashcards antes da próxima atividade.
+[335,765] Desafio de história
+[900,774] Ao vivo
+[335,784] Jogo ao vivo às 14h
+[1027,801] Revisar agora
+[335,839] Lista – Funções do 1º grau
+[887,848] Pendente
+[335,858] Prazo: segunda-feira
+
+=== A02 · Minhas matérias
+[1316,18] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,34] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Minhas matérias
+[58,108] Início
+[272,135] Escolha uma matéria para estudar.
+[58,149] Minhas matérias
+[58,190] Estudar
+[441,210] capa
+[826,210] capa
+[1211,210] capa
+[58,231] Mapas mentais
+[58,272] Flashcards
+[291,276] Matemática
+[676,276] Ciências
+[1062,276] História
+[291,306] Prof. Ana Souza
+[676,306] Prof. Marcos Lima
+[1062,306] Profa. Júlia Reis
+[58,313] Atividades
+[291,346] 68% concluído
+[676,346] 54% concluído
+[1062,346] 72% concluído
+[58,354] Jogos
+[301,375] 3 novos materiais
+[577,375] Abrir
+[686,375] 1 atividade pendente
+[963,375] Abrir
+[1072,375] Jogo hoje, 14h
+[1348,375] Abrir
+[58,395] Meu desempenho
+[441,472] capa
+[826,472] capa
+[1211,472] capa
+[291,538] Língua Portuguesa
+[676,538] Geografia
+[1062,538] Física
+[291,568] Profa. Paula Dias
+[676,568] Prof. Rui Alves
+[1062,568] Prof. Caio Melo
+[291,608] 61% concluído
+[676,608] 47% concluído
+[1062,608] 35% concluído
+[301,637] 2 novos materiais
+[577,637] Abrir
+[686,637] Sem pendências
+[963,637] Abrir
+[1072,637] 1 atividade pendente
+[1348,637] Abrir
+
+=== A03 · Matéria – assuntos
+[1316,18] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,34] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Matemática
+[58,108] Início
+[272,135] Prof. Ana Souza · 9º B
+[58,149] Minhas matérias
+[272,177] Assuntos
+[58,190] Estudar
+[1089,198] Próxima atividade
+[1089,222] Lista – Funções do 1º grau
+[291,230] Funções do primeiro grau
+[58,231] Mapas mentais
+[960,233] Concluído
+[1099,253] Prazo: segunda-feira
+[301,268] Resumo
+[376,268] Mapa mental
+[479,268] Flashcards
+[571,268] Exercícios
+[974,268] Revisar
+[58,272] Flashcards
+[1107,290] Fazer atividade
+[58,313] Atividades
+[291,340] Funções do segundo grau
+[932,343] Em andamento
+[58,354] Jogos
+[1089,375] Seu progresso na matéria
+[301,378] Resumo
+[376,378] Mapa mental
+[479,378] Flashcards
+[571,378] Exercícios
+[972,378] Estudar
+[58,395] Meu desempenho
+[1089,421] 68% · média 7,9
+[291,450] Geometria plana
+[989,453] Novo
+[301,488] Resumo
+[376,488] Mapa mental
+[479,488] Flashcards
+[571,488] Exercícios
+[972,488] Estudar
+[291,560] Estatística básica
+[870,563] Bloqueado pelo professor
+[301,598] Resumo
+[376,598] Mapa mental
+[479,598] Flashcards
+[571,598] Exercícios
+[972,598] Estudar
+
+=== A04 · Estudar – Resumo
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Matemática — Funções
+[58,108] Início
+[272,135] Material gerado a partir do conteúdo da disciplina.
+[58,149] Minhas matérias
+[288,187] Resumo
+[379,187] Mapa mental
+[502,187] Flashcards
+[611,187] Exercícios
+[58,190] Estudar
+[58,231] Mapas mentais
+[1127,259] Neste resumo
+[58,272] Flashcards
+[315,277] Resumo · 8 minutos
+[1140,296] O que é uma função?
+[305,310] O que é uma função?
+[58,313] Atividades
+[1139,341] Gráfico
+[305,353] Uma função estabelece uma relação entre valores de entrada e valores de saída. No primeiro grau, ela pode ser representada por f(x) = ax + b, com a diferente de zero.
+[58,354] Jogos
+[1139,385] Coeficientes a e b
+[58,395] Meu desempenho
+[305,419] Como interpretar o gráfico
+[1139,429] Exemplos resolvidos
+[1178,519] Marcar como concluído
+[602,527] gráfico da função / imagem
+[1204,567] Salvar anotação
+[305,629] O coeficiente a indica a inclinação da reta; o coeficiente b indica onde a reta cruza o eixo y.
+[322,686] Para lembrar
+[322,709] • f(x) = ax + b / • a ≠ 0 / • O gráfico é uma reta
+
+=== A05 · Estudar – Mapa mental
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Matemática — Funções
+[58,108] Início
+[272,135] Material gerado a partir do conteúdo da disciplina.
+[58,149] Minhas matérias
+[288,187] Resumo
+[378,187] Mapa mental
+[502,187] Flashcards
+[611,187] Exercícios
+[58,190] Estudar
+[58,231] Mapas mentais
+[1127,259] Coeficiente a
+[289,263] Funções do 1º grau
+[913,264] −
+[956,264] +
+[999,264] Tela cheia
+[58,272] Flashcards
+[1127,286] Define a inclinação da reta. Se a > 0 a função é crescente; se a < 0, decrescente.
+[58,313] Atividades
+[58,354] Jogos
+[384,362] Definição
+[893,362] Gráfico: reta
+[1146,368] Ver no resumo
+[58,395] Meu desempenho
+[372,550] Coeficiente a
+[624,550] Função do 1º grau
+[890,550] Coeficiente b
+[368,738] Raiz da função
+[897,738] Aplicações
+
+=== A06 · Estudar – Flashcards
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Matemática — Funções
+[58,108] Início
+[272,135] Material gerado a partir do conteúdo da disciplina.
+[58,149] Minhas matérias
+[288,187] Resumo
+[378,187] Mapa mental
+[501,187] Flashcards
+[612,187] Exercícios
+[58,190] Estudar
+[58,231] Mapas mentais
+[448,240] Cartão 7 de 24
+[1127,259] Sessão de hoje
+[58,272] Flashcards
+[1127,287] Acertos
+[1379,287] 5
+[58,313] Atividades
+[1127,314] Quase
+[1382,314] 1
+[1127,341] Erros
+[1382,341] 1
+[58,354] Jogos
+[661,385] Frente
+[58,395] Meu desempenho
+[1127,412] Cartões para rever
+[401,420] O que indica o coeficiente a em f(x) = ax + b?
+[1139,448] Raiz da função
+[602,467] Toque para virar o cartão
+[1139,492] Gráfico decrescente
+[763,618] Acertei
+[548,619] Errei
+[650,619] Quase
+
+=== A07 · Estudar – Exercícios
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Matemática — Funções
+[58,108] Início
+[272,135] Material gerado a partir do conteúdo da disciplina.
+[58,149] Minhas matérias
+[288,187] Resumo
+[378,187] Mapa mental
+[501,187] Flashcards
+[610,187] Exercícios
+[58,190] Estudar
+[58,231] Mapas mentais
+[1127,259] Seu desempenho nesta lista
+[58,272] Flashcards
+[305,277] Questão 3 de 10
+[801,277] +10 XP
+[1127,287] Acertos
+[1347,287] 2 de 2
+[305,312] Qual é o coeficiente angular da função f(x) = 3x − 5?
+[58,313] Atividades
+[1127,314] XP ganho
+[1361,314] +20
+[58,354] Jogos
+[354,373] A) −5
+[1155,379] Errou? Você verá a explicação e um flashcard para reforçar.
+[58,395] Meu desempenho
+[355,440] B) 3
+[354,507] C) 5
+[354,573] D) 0
+[916,633] Verificar resposta
+[324,634] Ver dica
+
+=== A08 · Atividades
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Atividades
+[58,108] Início
+[272,135] Tarefas, exercícios e simulados das suas matérias.
+[58,149] Minhas matérias
+[288,187] Pendentes
+[397,187] Concluídas
+[508,187] Simulados
+[58,190] Estudar
+[58,231] Mapas mentais
+[349,261] Revisão de ciências
+[1109,261] Resumo da semana
+[58,272] Flashcards
+[875,273] Pendente
+[971,273] Começar
+[349,285] Ciências · Prazo: sexta-feira
+[1109,289] 3 de 5 atividades concluídas
+[58,313] Atividades
+[1119,337] 7 dias seguidos
+[58,354] Jogos
+[349,355] Lista – Funções do 1º grau
+[875,367] Pendente
+[971,367] Começar
+[349,379] Matemática · Prazo: segunda-feira
+[58,395] Meu desempenho
+[349,449] Desafio de história
+[908,461] Ao vivo
+[991,461] Entrar
+[349,473] História · Jogo ao vivo hoje, 14h
+[349,543] Simulado de Português
+[871,555] Agendado
+[971,555] Começar
+[349,567] Português · Prazo: 30/10
+
+=== A09 · Resultado da atividade
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Resultado · Revisão de ciências
+[58,108] Início
+[272,135] Concluída hoje às 10h42
+[58,149] Minhas matérias
+[58,190] Estudar
+[633,198] Acertos por assunto
+[404,206] SUA NOTA
+[356,227] 8 / 10
+[58,231] Mapas mentais
+[58,272] Flashcards
+[404,307] Aprovado
+[58,313] Atividades
+[407,334] +80 XP
+[58,354] Jogos
+[633,374] Células
+[866,374] Energia
+[1101,374] Genética
+[1343,374] Ecologia
+[58,395] Meu desempenho
+[272,432] Questões que você errou
+[289,488] Questão
+[381,488] Assunto
+[533,488] Sua resposta
+[665,488] Correta
+[777,488] Explicação
+[289,533] Q4
+[381,533] Genética
+[533,533] B
+[665,533] C
+[790,534] Ver explicação
+[289,587] Q9
+[381,587] Ecologia
+[533,587] A
+[665,587] D
+[790,588] Ver explicação
+[293,669] Sugestões de revisão
+[311,709] Revisar com flashcards
+[516,710] Refazer apenas os erros
+[728,710] Voltar ao conteúdo
+
+=== A10 · Jogos e desafios
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Jogos e desafios
+[58,108] Início
+[272,135] Participe de partidas ao vivo com a sua turma.
+[58,149] Minhas matérias
+[879,177] Próximos jogos
+[58,190] Estudar
+[301,206] Entrar em um jogo
+[942,224] Desafio de história
+[58,231] Mapas mentais
+[1356,233] Hoje
+[942,243] Hoje às 14h · Prof. Júlia Reis
+[301,247] Digite o código mostrado pelo professor.
+[58,272] Flashcards
+[496,294] 000 000
+[942,298] Revisão de funções
+[1350,307] Sexta
+[58,313] Atividades
+[942,317] Sexta às 10h · Prof. Ana Souza
+[58,354] Jogos
+[518,376] Entrar no jogo
+[58,395] Meu desempenho
+[272,459] Histórico de partidas
+[289,515] Jogo
+[843,515] Data
+[935,515] Modo
+[1067,515] Posição
+[1199,515] Pontos
+[1301,515] Acertos
+[289,554] Revisão de ciências
+[843,554] 20/10
+[935,554] Competitivo
+[1067,554] 3º de 18
+[1199,554] 5.420
+[1301,554] 8/10
+[289,595] Geografia – equipes
+[843,595] 15/10
+[935,595] Colaborativo
+[1067,595] Equipe 2
+[1199,595] —
+[1301,595] 7/10
+[289,636] Funções do 1º grau
+[843,636] 10/10
+[935,636] Competitivo
+[1067,636] 1º de 20
+[1199,636] 7.150
+[1301,636] 10/12
+
+=== A11 · Meu desempenho
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[272,97] Meu desempenho
+[58,108] Início
+[272,135] Veja sua evolução e onde focar.
+[58,149] Minhas matérias
+[58,190] Estudar
+[291,196] Média geral
+[579,196] Atividades concluídas
+[867,196] Sequência de estudo
+[1155,196] XP total
+[291,216] 7,9
+[579,216] 18/22
+[867,216] 7 dias
+[1155,216] 1.240
+[58,231] Mapas mentais
+[291,256] +0,4
+[579,256] 82%
+[867,256] recorde: 12
+[1155,256] Nível 5
+[58,272] Flashcards
+[58,313] Atividades
+[293,335] Evolução por semana
+[678,335] Pontos fortes
+[1064,335] Assuntos para revisar
+[58,354] Jogos
+[678,365] Funções do 1º grau
+[1064,365] Geometria plana
+[678,393] Células
+[1064,393] Genética
+[58,395] Meu desempenho
+[678,421] Revolução Francesa
+[1064,421] Funções do 2º grau
+[1082,459] Revisar agora
+[293,531] S1
+[343,531] S2
+[395,531] S3
+[447,531] S4
+[500,531] S5
+[551,531] S6
+[602,531] S7
+[319,604] Recomendação: 10 minutos de flashcards de “Geometria plana” antes da próxima atividade.
+
+=== A12 · Mobile – Início
+[26,14] 9:41
+[330,14] ● ● ●
+[22,49] Olá! Vamos aprender?
+[323,53] 7 dias
+[39,104] SEU PROGRESSO
+[39,124] 68%
+[39,211] Continuar estudando
+[39,230] Funções do primeiro grau
+[39,257] Matemática · Resumo · 8 min
+[161,287] Continuar
+[22,344] Aprenda de outras formas
+[35,427] Mapas mentais
+[213,427] Flashcards
+[35,450] Visualize
+[213,450] Memorize
+[35,541] Exercícios
+[213,541] Desafios
+[35,564] Pratique
+[213,564] Teste-se
+[32,819] Início
+[99,819] Matérias
+[182,819] Estudar
+[261,819] Jogos
+[332,819] Perfil
+
+=== A13 · Mobile – Estudar: resumo
+[26,14] 9:41
+[330,14] ● ● ●
+[22,49] ‹
+[39,55] Matemática
+[22,92] Funções
+[37,144] Resumo
+[116,144] Mapa
+[179,144] Cards
+[245,144] Exerc.
+[39,200] O que é uma função?
+[39,232] Uma função estabelece uma relação entre valores de entrada e saída. No 1º grau: f(x) = ax + b, com a ≠ 0.
+[174,357] gráfico
+[35,469] Para lembrar
+[35,489] f(x) = ax + b · O gráfico é uma reta
+[116,542] Marcar como concluído
+[32,819] Início
+[99,819] Matérias
+[182,819] Estudar
+[261,819] Jogos
+[332,819] Perfil
+
+=== A14 · Mobile – Flashcards
+[26,14] 9:41
+[330,14] ● ● ●
+[22,49] ‹
+[39,55] Matemática
+[22,92] Funções
+[37,144] Resumo
+[116,144] Mapa
+[179,144] Cards
+[245,144] Exerc.
+[22,183] Cartão 7 de 24
+[176,309] Frente
+[47,340] O que indica o coeficiente a em f(x) = ax + b?
+[148,404] Toque para virar
+[289,536] Acertei
+[61,537] Errei
+[174,537] Quase
+[32,819] Início
+[99,819] Matérias
+[182,819] Estudar
+[261,819] Jogos
+[332,819] Perfil
+
+=== A15 · Mobile – Exercícios
+[26,14] 9:41
+[330,14] ● ● ●
+[22,49] ‹
+[39,55] Matemática
+[22,92] Funções
+[37,144] Resumo
+[116,144] Mapa
+[179,144] Cards
+[245,144] Exerc.
+[22,187] Questão 3 de 10
+[296,187] +10 XP
+[22,220] Qual é o coeficiente angular da função f(x) = 3x − 5?
+[67,296] A) −5
+[68,361] B) 3
+[67,426] C) 5
+[67,490] D) 0
+[134,550] Verificar resposta
+[32,819] Início
+[99,819] Matérias
+[182,819] Estudar
+[261,819] Jogos
+[332,819] Perfil
+
+=== A16 · Mobile – Atividades
+[26,14] 9:41
+[330,14] ● ● ●
+[22,49] Atividades
+[37,101] Pendentes
+[133,101] Concluídas
+[232,101] Simulados
+[47,159] Pendente
+[261,160] Prazo: sexta-feira
+[37,186] Revisão de ciências
+[166,220] Começar
+[47,292] Pendente
+[272,293] Prazo: segunda
+[37,319] Lista – Funções do 1º grau
+[166,353] Começar
+[47,425] Ao vivo
+[237,426] Jogo ao vivo hoje, 14h
+[37,452] Desafio de história
+[150,486] Entrar no jogo
+[47,558] Agendado
+[287,559] Prazo: 30/10
+[37,585] Simulado de Português
+[166,619] Começar
+[32,819] Início
+[99,819] Matérias
+[183,819] Estudar
+[261,819] Jogos
+[332,819] Perfil
+
+=== A17 · Mobile – Meu desempenho
+[26,14] 9:41
+[330,14] ● ● ●
+[22,49] Meu desempenho
+[41,111] Média geral
+[219,111] Sequência
+[41,131] 7,9
+[219,131] 7 dias
+[41,171] +0,4
+[219,171] recorde: 12
+[43,240] Evolução semanal
+[43,376] S1
+[90,376] S2
+[138,376] S3
+[188,376] S4
+[237,376] S5
+[285,376] S6
+[333,376] S7
+[39,441] Assuntos para revisar
+[39,468] Geometria plana
+[39,494] Genética
+[148,529] Revisar agora
+[32,819] Início
+[99,819] Matérias
+[182,819] Estudar
+[261,819] Jogos
+[332,819] Perfil
+
+=== A08b · Atividades – aba Concluídas
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[58,108] Início
+[272,119] Atividades
+[58,149] Minhas matérias
+[272,157] Tarefas, exercícios, simulados e resultados
+[58,190] Estudar
+[58,231] Mapas mentais
+[288,231] Pendentes
+[396,231] Concluídas
+[508,231] Simulados
+[58,272] Flashcards
+[289,295] Atividade
+[915,295] Matéria
+[1057,295] Entregue em
+[1179,295] Nota
+[1261,295] Resultado
+[58,313] Atividades
+[289,337] Lista – Funções do 1º grau
+[915,337] Matemática
+[1057,337] 18/10
+[1179,337] 8,0
+[1271,338] Ver resultado
+[58,354] Jogos
+[289,385] Revisão de ciências
+[915,385] Ciências
+[1057,385] 12/10
+[1179,385] 9,0
+[1271,386] Ver resultado
+[58,395] Meu desempenho
+[289,433] Questionário – Equações
+[915,433] Matemática
+[1057,433] 05/10
+[1179,433] 7,0
+[1271,434] Ver resultado
+
+=== A08c · Atividades – aba Simulados
+[1316,17] Lucas Almeida
+[62,20] EDU.AI
+[286,24] Buscar...
+[1316,33] Aluno · 9º ano
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO ALUNO
+[58,108] Início
+[272,119] Atividades
+[58,149] Minhas matérias
+[272,157] Tarefas, exercícios, simulados e resultados
+[58,190] Estudar
+[58,231] Mapas mentais
+[288,231] Pendentes
+[396,231] Concluídas
+[507,231] Simulados
+[58,272] Flashcards
+[291,303] Simulados feitos
+[867,303] Melhor nota
+[58,313] Atividades
+[291,323] 04
+[867,323] 8,5
+[58,354] Jogos
+[291,363] Último: 74%
+[867,363] Matemática
+[58,395] Meu desempenho
+[289,432] Simulado
+[945,432] Matéria
+[1077,432] Questões
+[1179,432] Tempo
+[1281,432] Ação
+[289,477] Simulado – Geometria plana
+[945,477] Matemática
+[1077,477] 20
+[1179,477] 40 min
+[1299,477] Iniciar
+[289,531] Simulado – Ciências naturais
+[945,531] Ciências
+[1077,531] 15
+[1179,531] 30 min
+[1299,531] Iniciar
+[289,583] Simulado – História do Brasil
+[945,583] História
+[1077,583] 25
+[1179,583] 50 min
+[1291,583] Em breve
+
+######## PAGE 04 · Jogos ao vivo
+
+=== G01 · Jogos ao vivo – lista
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Jogos ao vivo
+[58,108] Visão geral
+[1272,116] Criar jogo ao vivo
+[272,135] Transforme atividades em experiências interativas.
+[58,149] Minhas disciplinas
+[272,177] Criar a partir de
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[58,272] Estúdio de IA
+[293,295] Conteúdo gerado pela IA
+[677,295] Atividade existente
+[1061,295] Banco de questões
+[58,313] Editor de materiais
+[293,322] Use o questionário criado no Estúdio de IA
+[677,322] Reaproveite questões de uma atividade
+[1061,322] Escolha perguntas já cadastradas
+[58,354] Atividades e avaliações
+[288,393] Agendados
+[402,393] Em andamento
+[539,393] Encerrados
+[652,393] Modelos
+[58,395] Jogos ao vivo
+[58,436] Desempenho
+[289,457] Jogo
+[721,457] Turma
+[803,457] Modo
+[945,457] Perguntas
+[1047,457] Data
+[1169,457] Status
+[1291,457] Ações
+[58,477] Configurações
+[289,502] Revisão de funções
+[721,502] 9º B
+[813,502] Competitivo
+[945,502] 12
+[1047,502] Sexta, 10h
+[1179,502] Agendado
+[1303,502] Iniciar
+[289,554] Desafio de história
+[721,554] 1º EM
+[813,554] Competitivo
+[945,554] 15
+[1047,554] Hoje, 14h
+[1179,554] Hoje
+[1303,554] Iniciar
+[289,606] Células em equipe
+[721,606] 8º A
+[945,606] 10
+[1047,606] Segunda, 9h
+[813,607] Colaborativo
+[1179,607] Agendado
+[1304,607] Editar
+[289,660] Geografia – revisão
+[721,660] 8º B
+[945,660] 8
+[1047,660] —
+[813,661] Competitivo
+[1179,661] Rascunho
+[1304,661] Editar
+
+=== G02 · Criar jogo – passo 1: conteúdo
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Criar jogo ao vivo
+[58,108] Visão geral
+[272,135] Passo 1 de 5 · escolha as perguntas.
+[58,149] Minhas disciplinas
+[310,182] Conteúdo
+[479,182] Configurar
+[653,182] Sala de espera
+[854,182] Partida
+[1005,182] Resultado
+[282,183] 1
+[450,183] 2
+[624,183] 3
+[826,183] 4
+[976,183] 5
+[58,190] Turmas e alunos
+[58,231] Biblioteca de conteúdos
+[1071,252] Resumo do jogo
+[310,261] Conteúdo gerado pela IA
+[494,261] Atividade existente
+[644,261] Banco de questões
+[58,272] Estúdio de IA
+[1071,283] Origem
+[1265,283] Funções do 1º grau
+[308,310] Buscar conteúdo...
+[1071,311] Perguntas
+[1370,311] 12
+[58,313] Editor de materiais
+[1071,339] Disciplina
+[1310,339] Matemática
+[58,354] Atividades e avaliações
+[350,365] Funções do 1º grau · Questionário para jogo
+[1071,367] Turma
+[1358,367] 9º B
+[338,374] 
+[350,384] 12 questões · Matemática · gerado pela IA
+[58,395] Jogos ao vivo
+[1131,408] Continuar para configuração
+[58,436] Desempenho
+[350,443] Funções do 2º grau · Questionário para jogo
+[338,452] 
+[350,462] 10 questões · Matemática · gerado pela IA
+[58,477] Configurações
+[350,521] Geometria plana · Questionário para jogo
+[338,530] 
+[350,540] 8 questões · Matemática · em revisão
+
+=== G03 · Criar jogo – passo 2: configurar
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Configurar partida
+[58,108] Visão geral
+[272,135] Passo 2 de 5 · defina as regras do jogo.
+[58,149] Minhas disciplinas
+[310,182] Conteúdo
+[478,182] Configurar
+[653,182] Sala de espera
+[854,182] Partida
+[1005,182] Resultado
+[282,183] 1
+[450,183] 2
+[624,183] 3
+[826,183] 4
+[976,183] 5
+[58,190] Turmas e alunos
+[988,229] Perguntas do jogo (12)
+[58,231] Biblioteca de conteúdos
+[1343,232] Reordenar
+[295,252] Configurações do jogo
+[58,272] Estúdio de IA
+[1005,277] #
+[1047,277] Pergunta
+[1321,277] Nível
+[295,287] Título do jogo
+[626,287] Turma
+[58,313] Editor de materiais
+[1005,316] 1
+[1047,316] Coeficiente angular de f(x) = 3x − 5
+[1321,316] Fácil
+[308,320] Revisão de funções
+[639,320] 9º B ▾
+[58,354] Atividades e avaliações
+[1005,357] 2
+[1047,357] Raiz da função f(x) = 2x + 6
+[1321,357] Médio
+[295,365] Modo de jogo
+[58,395] Jogos ao vivo
+[1005,398] 3
+[1047,398] Gráfico de função decrescente
+[1321,398] Médio
+[644,405] Colaborativo
+[313,406] Competitivo
+[644,429] A turma cumpre metas em equipe, sem depender de velocidade.
+[313,430] Ranking e pontos; vence quem acerta mais rápido.
+[58,436] Desempenho
+[1005,439] 4
+[1047,439] Valor de f(4) para f(x) = x − 1
+[1321,439] Fácil
+[58,477] Configurações
+[1005,480] 5
+[1047,480] Interpretar o coeficiente b
+[1321,480] Médio
+[295,498] Tempo por pergunta
+[988,526] + 7 perguntas
+[310,528] 10 s
+[364,528] 20 s
+[420,528] 30 s
+[476,528] 60 s
+[1112,568] Criar sala de espera
+[295,569] Pontuação
+[1007,569] ← Voltar
+[310,599] Por velocidade
+[432,599] Fixa
+[486,599] Sem pontos
+[295,640] Dificuldade
+[310,670] Fácil
+[368,670] Médio
+[435,670] Difícil
+[295,711] Jogar em equipes
+[295,730] Alunos respondem em grupos
+[295,764] Embaralhar perguntas e alternativas
+[295,802] Mostrar placar após cada pergunta
+
+=== G04 · Sala de espera (professor)
+[82,26] EDU.AI
+[1356,29] Sair
+[163,30] Revisão de funções · 9º B
+[521,99] Entre em edu.ai/jogo e digite o código
+[544,187] CÓDIGO DE ACESSO
+[412,208] 482 913
+[937,248] QR code
+[596,385] 18 participantes conectados
+[210,443] Ana
+[278,443] Bruno
+[360,443] Carla
+[438,443] Diego
+[520,443] Elisa
+[592,443] Felipe
+[674,443] Gabi
+[748,443] Hugo
+[826,443] Íris
+[888,443] João
+[964,443] Kaio
+[1036,443] Lara
+[1108,443] Mateus
+[1200,443] Nina
+[588,486] Otávio
+[674,486] Paula
+[754,486] Rui
+[816,486] Sofia
+[564,553] Iniciar partida
+[742,554] Configurações do jogo
+[559,614] Modo competitivo · 12 perguntas · 20 s por pergunta
+
+=== G05 · Partida ao vivo (professor)
+[82,26] EDU.AI
+[1155,29] Pausar
+[1246,29] Pular
+[1325,29] Encerrar
+[163,30] Pergunta 4 de 12
+[513,136] Pergunta 4
+[85,160] Qual é o coeficiente angular da função f(x) = 3x − 5?
+[1202,162] 18
+[1171,274] segundos restantes
+[502,280] 4
+[1002,280] 11
+[122,281] −5
+[629,281] 3
+[84,284] A
+[592,284] B
+[1093,352] Responderam: 18 de 18
+[503,376] 2
+[1013,376] 1
+[122,377] 5
+[629,377] 0
+[84,380] C
+[591,380] D
+[1148,407] Mostrar resposta correta
+[1172,455] Próxima pergunta
+
+=== G06 · Placar parcial (professor)
+[82,26] EDU.AI
+[1234,29] Pausar
+[1325,29] Encerrar
+[163,30] Pergunta 4 de 12
+[48,99] Placar parcial
+[164,188] Ana
+[79,190] 1
+[904,190] 7850 pts
+[1045,194] Resposta correta
+[1035,223] B) 3
+[164,262] Bruno
+[78,264] 2
+[904,264] 7420 pts
+[1035,272] O coeficiente angular é o número que multiplica x.
+[164,336] Carla
+[78,338] 3
+[902,338] 6980 pts
+[1033,348] Respostas por alternativa
+[164,410] Diego
+[78,412] 4
+[905,412] 6510 pts
+[164,484] Elisa
+[78,486] 5
+[902,486] 6300 pts
+[1033,504] A
+[1143,504] B
+[1252,504] C
+[1363,504] D
+[1142,567] Próxima pergunta
+
+=== G07 · Resultado e aprendizagem
+[1308,18] Prof. Ana Souza
+[62,20] EDU.AI
+[286,24] Buscar...
+[1308,34] Professor
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO PROFESSOR
+[272,97] Resultado · Revisão de funções
+[58,108] Visão geral
+[1051,116] Exportar relatório
+[1217,116] Criar atividade de reforço
+[272,135] 9º B · 12 perguntas · 18 participantes
+[58,149] Minhas disciplinas
+[58,190] Turmas e alunos
+[291,196] Participantes
+[579,196] Acerto médio
+[867,196] Tempo médio de resposta
+[1155,196] Questões abaixo de 50%
+[291,216] 18
+[579,216] 74%
+[867,216] 11 s
+[1155,216] 02
+[58,231] Biblioteca de conteúdos
+[291,256] 100% da turma
+[579,256] +6 p.p. vs. último jogo
+[1155,256] revisar com a turma
+[58,272] Estúdio de IA
+[58,313] Editor de materiais
+[733,335] Acertos por assunto
+[432,337] Pódio do jogo
+[58,354] Atividades e avaliações
+[58,395] Jogos ao vivo
+[468,419] Ana
+[58,436] Desempenho
+[454,442] 8.940 pts
+[58,477] Configurações
+[586,489] Carla
+[578,512] 7.760 pts
+[471,520] 1º
+[340,532] Bruno
+[733,551] Fun. 1º
+[941,551] Fun. 2º
+[1151,551] Geom.
+[1357,551] Estat.
+[591,554] 3º
+[334,555] 8.120 pts
+[348,576] 2º
+[272,650] Questões com mais erros
+[1009,671] Sugestões de revisão
+[289,694] Questão
+[669,694] Assunto
+[851,694] % de acerto
+[1009,699] • Retomar Geometria plana com flashcards. / • Reaplicar Q9 em exercício guiado.
+[289,733] Q7 · Geometria
+[669,733] Geometria plana
+[851,733] 32%
+[289,774] Q9 · Função do 2º grau
+[669,774] Funções do 2º grau
+[851,774] 45%
+[289,815] Q4 · Estatística
+[669,815] Estatística
+[851,815] 58%
+[319,884] O ranking do jogo mede rapidez e acerto. O domínio do conteúdo é avaliado em Desempenho.
+
+=== G08 · Partida colaborativa (professor)
+[82,26] EDU.AI
+[1234,29] Pausar
+[1325,29] Encerrar
+[163,30] Modo colaborativo · Células em equipe
+[73,124] Meta da turma: 70% de acertos coletivos
+[1272,124] Atual: 58%
+[67,232] Equipe 1
+[407,232] Equipe 2
+[747,232] Equipe 3
+[1087,232] Equipe 4
+[271,234] Aguardando
+[602,234] Respondendo
+[957,234] Respondeu
+[1282,234] Respondendo
+[67,263] 5 alunos
+[407,263] 5 alunos
+[747,263] 4 alunos
+[1087,263] 4 alunos
+[67,288] Acertos: 7 de 10
+[407,288] Acertos: 9 de 10
+[747,288] Acertos: 6 de 10
+[1087,288] Acertos: 8 de 10
+[666,392] Pergunta 6 de 10
+[77,416] Qual organela é responsável pela produção de energia na célula?
+[255,508] Revelar resposta
+[67,509] Mostrar dica à turma
+
+=== G09 · Aluno – Entrar com código
+[26,14] 9:41
+[330,14] ● ● ●
+[64,86] EDU.AI
+[22,133] Entrar no jogo
+[22,189] Digite o código mostrado pelo professor na tela.
+[116,245] 000 000
+[38,341] Seu nome ou apelido
+[171,408] Entrar
+[133,476] Escanear QR code
+
+=== G10 · Aluno – Sala de espera
+[26,14] 9:41
+[330,14] ● ● ●
+[177,142] avatar
+[38,215] Você está dentro, Lucas!
+[80,264] Aguardando o professor iniciar…
+[112,304] 18 participantes conectados
+[124,386] Revisão de funções
+[102,408] Modo competitivo · 12 perguntas
+
+=== G11 · Aluno – Pergunta
+[26,14] 9:41
+[330,14] ● ● ●
+[22,53] Pergunta 4 de 12
+[334,53] 18 s
+[43,125] Qual é o coeficiente angular da função f(x) = 3x − 5?
+[88,234] −5
+[51,236] A
+[88,320] 3
+[52,322] B
+[88,406] 5
+[51,408] C
+[88,492] 0
+[52,494] D
+
+=== G12 · Aluno – Feedback: acertou
+[26,14] 9:41
+[330,14] ● ● ●
+[190,171] ✓
+[113,241] Correto!
+[112,303] +850 pontos
+[139,352] 3 acertos seguidos
+[110,385] Você está em 3º lugar
+
+=== G13 · Aluno – Feedback: errou
+[26,14] 9:41
+[330,14] ● ● ●
+[190,161] ✕
+[126,231] Quase!
+[87,293] Resposta correta: B) 3
+[39,348] Por quê?
+[39,369] O coeficiente angular é o número que multiplica x.
+[78,442] Sem pontos nesta rodada · 3º lugar
+
+=== G14 · Aluno – Placar
+[26,14] 9:41
+[330,14] ● ● ●
+[22,49] Placar
+[22,93] Após a pergunta 4 de 12
+[76,136] Ana
+[46,137] 1
+[315,137] 7.850
+[76,198] Bruno
+[46,199] 2
+[315,199] 7.420
+[76,260] Lucas (você)
+[46,261] 3
+[313,261] 6.980
+[76,322] Diego
+[46,323] 4
+[315,323] 6.510
+[76,384] Elisa
+[46,385] 5
+[312,385] 6.300
+[22,429] Faltam 8 perguntas
+
+=== G15 · Aluno – Modo colaborativo
+[26,14] 9:41
+[330,14] ● ● ●
+[32,53] Equipe 2
+[263,53] Pergunta 6 de 10
+[37,99] Meta da turma: 70% · atual 58%
+[41,175] Qual organela produz energia na célula?
+[88,276] Núcleo
+[51,278] A
+[88,362] Mitocôndria
+[52,364] B
+[88,448] Ribossomo
+[51,450] C
+[22,508] Converse com a equipe e escolha juntos
+
+=== G16 · Aluno – Resultado final
+[26,14] 9:41
+[330,14] ● ● ●
+[112,65] Fim de jogo!
+[172,151] 3º lugar
+[84,217] 5.420 pontos · 8 de 10 acertos
+[39,266] Para revisar
+[51,300] Geometria plana
+[51,342] Funções do 2º grau
+[116,411] Revisar com flashcards
+[145,468] Voltar ao início
+
+######## PAGE 05 · Gestor (B2B)
+
+=== H01 · Dashboard institucional
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Dashboard institucional
+[58,108] Dashboard
+[1146,116] Último mês
+[1223,116] ▾
+[1270,116] Exportar relatório
+[272,135] Colégio Exemplo · visão de todas as unidades
+[58,149] Instituição
+[58,190] Unidades
+[291,196] Alunos ativos
+[579,196] Professores ativos
+[867,196] Taxa de conclusão
+[1155,196] Uso de IA no plano
+[291,216] 1.240
+[579,216] 64
+[867,216] 79%
+[1155,216] 62%
+[58,231] Usuários
+[291,256] +8% no mês
+[579,256] de 80 licenças
+[867,256] +3 p.p.
+[1155,256] dentro do limite
+[58,272] Turmas
+[58,313] Relatórios
+[293,335] Participação semanal dos alunos
+[871,335] Conclusão de atividades por unidade
+[58,354] Planos e licenças
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[293,531] S1
+[376,531] S2
+[459,531] S3
+[544,531] S4
+[628,531] S5
+[712,531] S6
+[795,531] S7
+[871,531] Centro
+[1044,531] Norte
+[1211,531] Sul
+[1365,531] EAD
+[272,589] Desempenho por unidade
+[924,592] Ver relatórios
+[1047,608] Alertas
+[289,635] Unidade
+[525,635] Alunos
+[617,635] Participação
+[779,635] Conclusão
+[871,635] Tendência
+[1094,649] 3 turmas com baixa participação na Unidade Sul.
+[289,678] Centro
+[525,678] 520
+[779,678] 82%
+[881,678] ↑ subindo
+[1094,719] Consumo de IA em 62% do limite mensal.
+[289,726] Norte
+[525,726] 310
+[779,726] 74%
+[881,726] → estável
+[289,774] Sul
+[525,774] 240
+[779,774] 68%
+[881,774] ↓ atenção
+[289,822] EAD
+[525,822] 170
+[779,822] 90%
+[881,822] ↑ subindo
+
+=== H02 · Instituição e unidades
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Instituição e unidades
+[58,108] Dashboard
+[1284,116] + Nova unidade
+[272,135] Dados cadastrais e estrutura acadêmica.
+[58,149] Instituição
+[288,187] Dados da instituição
+[461,187] Unidades
+[562,187] Cursos e séries
+[702,187] Períodos letivos
+[845,187] Departamentos
+[58,190] Unidades
+[58,231] Usuários
+[692,240] Unidades cadastradas
+[295,263] Dados da instituição
+[58,272] Turmas
+[709,286] Unidade
+[833,286] Cidade
+[975,286] Cursos
+[1057,286] Turmas
+[1139,286] Responsável
+[1291,286] Ações
+[58,313] Relatórios
+[318,324] logo
+[400,324] Trocar logotipo
+[709,332] Centro
+[833,332] Belo Horizonte
+[975,332] 6
+[1057,332] 18
+[1139,332] Carla Mendes
+[1304,332] Editar
+[58,354] Planos e licenças
+[295,382] Nome da instituição
+[709,386] Norte
+[833,386] Contagem
+[975,386] 4
+[1057,386] 12
+[1139,386] Paulo Reis
+[1304,386] Editar
+[58,395] Privacidade e auditoria
+[308,415] Colégio Exemplo
+[58,436] Configurações
+[709,440] Sul
+[833,440] Betim
+[975,440] 3
+[1057,440] 9
+[1139,440] Lúcia Prado
+[1304,440] Editar
+[295,458] CNPJ
+[308,491] 00.000.000/0001-00
+[709,494] EAD
+[833,494] Online
+[975,494] 5
+[1057,494] 10
+[1139,494] Rafael Dias
+[1304,494] Editar
+[295,534] Cor principal
+[308,567] #172033
+[414,620] Salvar alterações
+
+=== H03 · Turmas (visão do gestor)
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Turmas
+[58,108] Dashboard
+[1163,114] Importar turmas
+[1299,116] + Nova turma
+[272,135] Organize turmas, professores e alunos.
+[58,149] Instituição
+[285,187] Buscar turma...
+[595,187] Unidade
+[696,187] Curso / série
+[824,187] Período letivo
+[655,188] ▾
+[783,188] ▾
+[917,188] ▾
+[58,190] Unidades
+[58,231] Usuários
+[289,248] Turma
+[701,248] Unidade
+[803,248] Curso / série
+[965,248] Professores
+[1067,248] Alunos
+[1149,248] Participação
+[1301,248] Ações
+[58,272] Turmas
+[289,294] 9º B
+[701,294] Centro
+[803,294] Ensino Fundamental
+[965,294] 4
+[1067,294] 32
+[1314,294] Abrir
+[58,313] Relatórios
+[289,348] 8º A
+[701,348] Norte
+[803,348] Ensino Fundamental
+[965,348] 4
+[1067,348] 30
+[1314,348] Abrir
+[58,354] Planos e licenças
+[58,395] Privacidade e auditoria
+[289,402] 1º EM
+[701,402] Centro
+[803,402] Ensino Médio
+[965,402] 6
+[1067,402] 28
+[1314,402] Abrir
+[58,436] Configurações
+[289,456] Preparatório ENEM
+[701,456] EAD
+[803,456] Preparatório
+[965,456] 8
+[1067,456] 120
+[1314,456] Abrir
+[289,510] Técnico em Redes
+[701,510] Sul
+[803,510] Curso técnico
+[965,510] 5
+[1067,510] 35
+[1314,510] Abrir
+
+=== H04 · Usuários e permissões
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Usuários e permissões
+[58,108] Dashboard
+[1045,116] Importar alunos (CSV)
+[1244,116] Convidar professores
+[272,135] Gerencie quem acessa a plataforma e o que pode fazer.
+[58,149] Instituição
+[288,187] Professores
+[406,187] Alunos
+[488,187] Gestores
+[585,187] Papéis e permissões
+[58,190] Unidades
+[58,231] Usuários
+[285,250] Buscar por nome ou e-mail...
+[615,250] Unidade
+[675,250] ▾
+[716,250] Papel
+[759,250] ▾
+[800,250] Status
+[848,250] ▾
+[58,272] Turmas
+[289,311] Nome
+[451,311] E-mail
+[703,311] Papel
+[835,311] Unidade
+[947,311] Status
+[1099,311] Último acesso
+[58,313] Relatórios
+[58,354] Planos e licenças
+[289,354] Ana Souza
+[451,354] ana.souza@colegio.edu.br
+[713,354] Professor
+[835,354] Centro
+[957,354] Ativo
+[1099,354] hoje
+[58,395] Privacidade e auditoria
+[289,402] Marcos Lima
+[451,402] marcos.lima@colegio.edu.br
+[713,402] Professor
+[835,402] Norte
+[957,402] Ativo
+[1099,402] ontem
+[58,436] Configurações
+[289,450] Júlia Reis
+[451,450] julia.reis@colegio.edu.br
+[713,450] Coordenador
+[835,450] Centro
+[957,450] Ativo
+[1099,450] hoje
+[289,498] Paula Dias
+[451,498] paula.dias@colegio.edu.br
+[713,498] Professor
+[835,498] Sul
+[957,498] Convite enviado
+[1099,498] —
+[289,546] Caio Melo
+[451,546] caio.melo@colegio.edu.br
+[713,546] Professor
+[835,546] EAD
+[957,546] Inativo
+[1099,546] há 30 dias
+
+=== H05 · Convidar e importar usuários
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Usuários e permissões
+[58,108] Dashboard
+[272,135] Gerencie quem acessa a plataforma e o que pode fazer.
+[58,149] Instituição
+[449,179] Convidar ou importar usuários
+[1215,180] ✕
+[58,190] Unidades
+[464,230] Convidar por e-mail
+[617,230] Importar planilha
+[58,231] Usuários
+[58,272] Turmas
+[468,292] Convidar por e-mail
+[869,292] Importar planilha (CSV/XLSX)
+[58,313] Relatórios
+[468,322] E-mails (um por linha)
+[58,354] Planos e licenças
+[481,355] professor1@colegio.edu.br / professor2@colegio.edu.br
+[978,370] arraste a planilha aqui
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[869,444] Baixar modelo de planilha
+[468,445] Papel
+[756,450] lista de usuários (esmaecida)
+[869,472] Mapeamento de colunas
+[481,478] Professor ▾
+[882,505] Nome → coluna A · E-mail → coluna B
+[468,519] Unidade
+[481,552] Centro ▾
+[1109,628] Enviar convites
+[1001,629] Cancelar
+
+=== H06 · Relatórios e indicadores
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Relatórios e indicadores
+[58,108] Dashboard
+[1159,116] Exportar PDF
+[1297,116] Exportar CSV
+[272,135] Indicadores de aprendizagem de toda a instituição.
+[58,149] Instituição
+[285,187] Unidade: todas
+[428,187] Curso / série
+[556,187] Disciplina
+[664,187] Período: último bimestre
+[387,188] ▾
+[515,188] ▾
+[623,188] ▾
+[822,188] ▾
+[58,190] Unidades
+[58,231] Usuários
+[291,256] Participação
+[579,256] Conclusão de atividades
+[867,256] Média institucional
+[1155,256] Turmas em atenção
+[58,272] Turmas
+[291,276] 78%
+[579,276] 79%
+[867,276] 7,3
+[1155,276] 06
+[58,313] Relatórios
+[291,316] +5 p.p.
+[579,316] +3 p.p.
+[867,316] +0,2
+[1155,316] 2 a mais
+[58,354] Planos e licenças
+[58,395] Privacidade e auditoria
+[293,395] Evolução acadêmica (média por mês)
+[871,395] Participação por unidade
+[58,436] Configurações
+[293,601] Mai
+[392,601] Jun
+[491,601] Ago
+[591,601] Set
+[689,601] Out
+[788,601] Nov
+[871,601] Centro
+[1044,601] Norte
+[1211,601] Sul
+[1365,601] EAD
+[272,659] Dificuldades por disciplina
+[850,659] Turmas com menor participação
+[411,703] Assunto com mais erros
+[867,703] Turma
+[1009,703] Unidade
+[1111,703] Participação
+[289,711] Disciplina
+[561,711] Acerto médio
+[683,711] Turmas em atenção
+[867,742] Técnico em Redes
+[1009,742] Sul
+[289,758] Matemática
+[411,758] Geometria plana
+[561,758] 52%
+[683,758] 3
+[867,783] 8º B
+[1009,783] Sul
+[289,799] Ciências
+[411,799] Genética
+[561,799] 58%
+[683,799] 2
+[867,824] 1º EM
+[1009,824] Centro
+[289,840] História
+[411,840] Era Vargas
+[561,840] 61%
+[683,840] 1
+
+=== H07 · Planos e licenças
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Plano e utilização
+[58,108] Dashboard
+[272,135] Gerencie assinatura, licenças e consumo.
+[58,149] Instituição
+[58,190] Unidades
+[301,206] PLANO ATUAL
+[301,223] Plano Instituição
+[58,231] Usuários
+[1106,232] Alterar plano
+[1241,234] Falar com vendas
+[301,261] Até 1.500 alunos · 80 professores · renovação em 15/01/2027
+[58,272] Turmas
+[58,313] Relatórios
+[291,350] Licenças de professores
+[579,350] Licenças de alunos
+[867,350] Créditos de IA no mês
+[1155,350] Armazenamento
+[58,354] Planos e licenças
+[291,374] 64 de 80
+[579,374] 1.240 de 1.500
+[867,374] 62% usados
+[1155,374] 41 GB de 100 GB
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[871,457] Faturamento
+[293,478] Consumo de IA por unidade
+[888,501] Fatura
+[990,501] Período
+[1092,501] Valor
+[1214,501] Status
+[1316,501] Ação
+[888,546] #2026-10
+[990,546] Out/2026
+[1092,546] R$ 0.000,00
+[1224,547] Paga
+[1329,547] Baixar PDF
+[888,600] #2026-09
+[990,600] Set/2026
+[1092,600] R$ 0.000,00
+[1224,601] Paga
+[1329,601] Baixar PDF
+[888,654] #2026-11
+[990,654] Nov/2026
+[1092,654] R$ 0.000,00
+[1224,655] Em aberto
+[1329,655] Ver
+[293,674] Centro
+[473,674] Norte
+[647,674] Sul
+[808,674] EAD
+[319,747] Ao atingir 90% dos créditos de IA, o gestor recebe um aviso e pode ampliar o limite.
+
+=== H08 · Privacidade e auditoria
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Privacidade e auditoria
+[58,108] Dashboard
+[1306,116] Exportar log
+[272,135] Controle quem acessa o quê e por quanto tempo.
+[58,149] Instituição
+[288,187] Permissões
+[402,187] Auditoria
+[501,187] Retenção de dados
+[667,187] LGPD
+[58,190] Unidades
+[58,231] Usuários
+[285,250] Buscar no log...
+[575,250] Usuário
+[630,250] ▾
+[671,250] Tipo de ação
+[759,250] ▾
+[800,250] Período
+[856,250] ▾
+[1071,263] Política de retenção de dados
+[58,272] Turmas
+[1071,296] Documentos originais
+[289,299] Data e hora
+[411,299] Usuário
+[553,299] Ação
+[715,299] Item
+[901,299] Perfil
+[58,313] Relatórios
+[1084,329] Manter por 2 anos ▾
+[289,342] 22/10 09:12
+[411,342] Ana Souza
+[553,342] Publicou material
+[715,342] Funções do 1º grau
+[911,342] Professor
+[58,354] Planos e licenças
+[1071,372] Respostas e resultados
+[289,390] 22/10 08:47
+[411,390] Carla Mendes
+[553,390] Alterou permissão
+[715,390] Paula Dias
+[911,390] Gestor
+[58,395] Privacidade e auditoria
+[1084,405] Manter por 5 anos ▾
+[58,436] Configurações
+[289,438] 21/10 17:30
+[411,438] Marcos Lima
+[553,438] Acessou documento
+[715,438] Células e organelas.pptx
+[911,438] Professor
+[1071,450] Anonimizar dados de ex-alunos
+[289,486] 21/10 15:02
+[411,486] Júlia Reis
+[553,486] Excluiu atividade
+[715,486] Quiz de revisão
+[911,486] Coordenador
+[1176,494] Salvar políticas
+[289,534] 21/10 10:20
+[411,534] Carla Mendes
+[553,534] Exportou relatório
+[715,534] Participação – Out
+[911,534] Gestor
+[1095,573] Os dados dos alunos seguem a LGPD: acesso restrito por perfil e registro de todas as ações.
+
+=== H09 · Configurações institucionais
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Configurações institucionais
+[58,108] Dashboard
+[272,135] Personalize a plataforma e conecte outros sistemas.
+[58,149] Instituição
+[288,187] Identidade visual
+[438,187] Integrações
+[555,187] Notificações
+[676,187] Domínio e acesso
+[58,190] Unidades
+[58,231] Usuários
+[295,263] Integrações disponíveis
+[873,263] Domínio e acesso
+[58,272] Turmas
+[873,296] Domínio da instituição
+[358,310] Login único (SSO)
+[58,313] Relatórios
+[718,320] Conectado
+[358,329] Google Workspace / Microsoft
+[886,329] colegio.edu.br
+[58,354] Planos e licenças
+[873,372] Endereço personalizado
+[358,386] Google Classroom
+[58,395] Privacidade e auditoria
+[721,396] Disponível
+[358,405] Importar turmas e alunos
+[886,405] aprender.colegio.edu.br
+[58,436] Configurações
+[873,450] Exigir login único (SSO)
+[358,462] Moodle / LMS
+[721,472] Disponível
+[358,481] Sincronizar notas e matrículas
+[873,486] Permitir entrada de alunos por código da turma
+[873,522] Autenticação em duas etapas para gestores
+[358,538] E-mail institucional (SMTP)
+[718,548] Conectado
+[358,557] Envio de convites e avisos
+[1057,566] Salvar configurações
+
+=== H02d · Instituição – aba Períodos letivos
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Instituição e unidades
+[58,108] Dashboard
+[1284,116] + Nova unidade
+[272,135] Cadastro da organização, logotipo, unidades e estrutura pedagógica
+[58,149] Instituição
+[288,187] Dados da instituição
+[461,187] Unidades
+[561,187] Cursos e séries
+[701,187] Períodos letivos
+[846,187] Departamentos
+[58,190] Unidades
+[58,231] Usuários
+[289,251] Período
+[915,251] Início
+[1027,251] Fim
+[1139,251] Unidades
+[1261,251] Status
+[58,272] Turmas
+[289,294] 1º bimestre 2026
+[915,294] 03/02
+[1027,294] 11/04
+[1139,294] Todas
+[1271,294] Encerrado
+[58,313] Relatórios
+[289,342] 2º bimestre 2026
+[915,342] 21/04
+[1027,342] 04/07
+[1139,342] Todas
+[1271,342] Encerrado
+[58,354] Planos e licenças
+[289,390] 3º bimestre 2026
+[915,390] 21/07
+[1027,390] 26/09
+[1139,390] Todas
+[1271,390] Encerrado
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[289,438] 4º bimestre 2026
+[915,438] 06/10
+[1027,438] 12/12
+[1139,438] Todas
+[1271,438] Em andamento
+
+=== H02e · Instituição – aba Departamentos
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Instituição e unidades
+[58,108] Dashboard
+[1284,116] + Nova unidade
+[272,135] Cadastro da organização, logotipo, unidades e estrutura pedagógica
+[58,149] Instituição
+[288,187] Dados da instituição
+[461,187] Unidades
+[561,187] Cursos e séries
+[701,187] Períodos letivos
+[844,187] Departamentos
+[58,190] Unidades
+[58,231] Usuários
+[289,251] Departamento
+[977,251] Coordenador(a)
+[1159,251] Professores
+[1281,251] Disciplinas
+[58,272] Turmas
+[289,290] Exatas
+[977,290] Marcos Lima
+[1159,290] 14
+[1281,290] 6
+[58,313] Relatórios
+[289,331] Linguagens
+[977,331] Júlia Reis
+[1159,331] 12
+[1281,331] 5
+[58,354] Planos e licenças
+[289,372] Humanas
+[977,372] Paulo Dias
+[1159,372] 10
+[1281,372] 4
+[58,395] Privacidade e auditoria
+[289,413] Ciências da natureza
+[977,413] Ana Souza
+[1159,413] 9
+[1281,413] 4
+[58,436] Configurações
+
+=== H04b · Usuários – aba Alunos
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Usuários e permissões
+[58,108] Dashboard
+[1128,116] Importar CSV
+[1267,116] Convidar usuários
+[272,135] Convidar professores, importar alunos e definir papéis
+[58,149] Instituição
+[288,187] Professores
+[404,187] Alunos
+[488,187] Gestores
+[585,187] Papéis e permissões
+[58,190] Unidades
+[58,231] Usuários
+[289,251] Nome
+[905,251] Turma
+[1027,251] Unidade
+[1149,251] Último acesso
+[1281,251] Status
+[58,272] Turmas
+[289,294] Lucas Almeida
+[905,294] 9º B
+[1027,294] Centro
+[1149,294] Hoje
+[1291,294] Ativo
+[58,313] Relatórios
+[289,342] Marina Costa
+[905,342] 9º B
+[1027,342] Centro
+[1149,342] Ontem
+[1291,342] Ativo
+[58,354] Planos e licenças
+[289,390] Pedro Rocha
+[905,390] 1º EM
+[1027,390] Norte
+[1149,390] Há 9 dias
+[1291,390] Inativo
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[289,438] Sofia Lima
+[905,438] Prep. ENEM
+[1027,438] Sul
+[1149,438] Hoje
+[1291,438] Ativo
+
+=== H04c · Usuários – aba Gestores
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Usuários e permissões
+[58,108] Dashboard
+[1128,116] Importar CSV
+[1267,116] Convidar usuários
+[272,135] Convidar professores, importar alunos e definir papéis
+[58,149] Instituição
+[288,187] Professores
+[404,187] Alunos
+[486,187] Gestores
+[584,187] Papéis e permissões
+[58,190] Unidades
+[58,231] Usuários
+[289,251] Nome
+[867,251] E-mail
+[1099,251] Papel
+[1251,251] Unidades
+[58,272] Turmas
+[289,290] Carla Mendes
+[867,290] carla@colegio.edu
+[1099,290] Administradora
+[1251,290] Todas
+[58,313] Relatórios
+[289,331] Rui Prado
+[867,331] rui@colegio.edu
+[1099,331] Coordenador
+[1251,331] Centro, Norte
+[58,354] Planos e licenças
+[289,372] Bia Nunes
+[867,372] bia@colegio.edu
+[1099,372] Coordenadora
+[1251,372] Sul
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+
+=== H04d · Usuários – aba Papéis e permissões
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Usuários e permissões
+[58,108] Dashboard
+[1128,116] Importar CSV
+[1267,116] Convidar usuários
+[272,135] Convidar professores, importar alunos e definir papéis
+[58,149] Instituição
+[288,187] Professores
+[404,187] Alunos
+[486,187] Gestores
+[583,187] Papéis e permissões
+[58,190] Unidades
+[58,231] Usuários
+[289,251] Permissão
+[885,251] Admin.
+[1007,251] Coordenador
+[1139,251] Professor
+[1281,251] Aluno
+[58,272] Turmas
+[289,294] Gerenciar instituição e planos
+[895,294] Sim
+[1017,294] —
+[1149,294] —
+[1291,294] —
+[58,313] Relatórios
+[289,342] Convidar usuários
+[895,342] Sim
+[1017,342] Sim
+[1149,342] —
+[1291,342] —
+[58,354] Planos e licenças
+[289,390] Criar e publicar materiais
+[895,390] —
+[1017,390] Ver
+[1149,390] Suas turmas
+[1291,390] —
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[289,438] Ver relatórios agregados
+[895,438] Sim
+[1017,438] Unidade
+[1149,438] Suas turmas
+[1291,438] Próprio
+
+=== H08a · Privacidade – aba Permissões
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Privacidade e auditoria
+[58,108] Dashboard
+[1306,116] Exportar log
+[272,135] Controle quem acessa o quê e por quanto tempo os dados ficam guardados
+[58,149] Instituição
+[288,187] Permissões
+[403,187] Auditoria
+[500,187] Retenção de dados
+[666,187] LGPD
+[58,190] Unidades
+[58,231] Usuários
+[289,251] Documento
+[887,251] Proprietário
+[1049,251] Quem acessa
+[1261,251] Última alteração
+[58,272] Turmas
+[289,290] Funções do 1º grau.pdf
+[887,290] Ana Souza
+[1049,290] Prof. e alunos da turma
+[1261,290] Hoje
+[58,313] Relatórios
+[289,331] Prova bimestral.docx
+[887,331] Marcos Lima
+[1049,331] Somente professor
+[1261,331] Ontem
+[58,354] Planos e licenças
+[289,372] Plano de curso.pdf
+[887,372] Júlia Reis
+[1049,372] Coordenação
+[1261,372] Há 3 dias
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+
+=== H08c · Privacidade – aba Retenção de dados
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Privacidade e auditoria
+[58,108] Dashboard
+[1306,116] Exportar log
+[272,135] Controle quem acessa o quê e por quanto tempo os dados ficam guardados
+[58,149] Instituição
+[288,187] Permissões
+[402,187] Auditoria
+[499,187] Retenção de dados
+[665,187] LGPD
+[58,190] Unidades
+[58,231] Usuários
+[297,265] Política de retenção
+[58,272] Turmas
+[297,300] Documentos originais
+[58,313] Relatórios
+[310,333] 24 meses
+[58,354] Planos e licenças
+[297,376] Respostas de alunos
+[58,395] Privacidade e auditoria
+[310,409] 60 meses
+[58,436] Configurações
+[297,452] Logs de auditoria
+[310,485] 12 meses
+[297,530] Excluir dados automaticamente ao fim do prazo
+[315,574] Salvar alterações
+
+=== H08d · Privacidade – aba LGPD
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Privacidade e auditoria
+[58,108] Dashboard
+[1306,116] Exportar log
+[272,135] Controle quem acessa o quê e por quanto tempo os dados ficam guardados
+[58,149] Instituição
+[288,187] Permissões
+[402,187] Auditoria
+[499,187] Retenção de dados
+[665,187] LGPD
+[58,190] Unidades
+[58,231] Usuários
+[319,255] Os dados pessoais seguem a LGPD: consentimento, acesso, correção e exclusão por solicitação.
+[58,272] Turmas
+[58,313] Relatórios
+[289,321] Solicitante
+[967,321] Tipo
+[1149,321] Abertura
+[1271,321] Status
+[58,354] Planos e licenças
+[289,364] Responsável – Lucas A.
+[967,364] Exclusão de dados
+[1149,364] 12/10
+[1281,364] Em análise
+[58,395] Privacidade e auditoria
+[289,412] Prof. Ana Souza
+[967,412] Acesso aos dados
+[1149,412] 05/10
+[1281,412] Concluída
+[58,436] Configurações
+
+=== H09a · Configurações – aba Identidade visual
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[58,108] Dashboard
+[272,119] Configurações institucionais
+[58,149] Instituição
+[272,157] Identidade visual, integrações, notificações e acesso
+[58,190] Unidades
+[58,231] Usuários
+[288,231] Identidade visual
+[440,231] Integrações
+[556,231] Notificações
+[677,231] Domínio e acesso
+[58,272] Turmas
+[297,309] Marca da instituição
+[875,309] Prévia
+[58,313] Relatórios
+[58,354] Planos e licenças
+[372,382] Logotipo
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[297,448] Cor principal
+[1111,456] Prévia
+[310,481] #172033
+[297,524] Cor de destaque
+[310,557] #FACC15
+[315,610] Salvar alterações
+
+=== H09c · Configurações – aba Notificações
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[58,108] Dashboard
+[272,119] Configurações institucionais
+[58,149] Instituição
+[272,157] Identidade visual, integrações, notificações e acesso
+[58,190] Unidades
+[58,231] Usuários
+[288,231] Identidade visual
+[438,231] Integrações
+[554,231] Notificações
+[676,231] Domínio e acesso
+[58,272] Turmas
+[297,309] Alertas enviados por e-mail e na plataforma
+[58,313] Relatórios
+[297,348] Novo material publicado
+[58,354] Planos e licenças
+[297,386] Atividade com prazo próximo
+[58,395] Privacidade e auditoria
+[297,424] Consumo de IA acima de 80%
+[58,436] Configurações
+[297,462] Relatório semanal aos coordenadores
+[315,508] Salvar alterações
+
+=== H09d · Configurações – aba Domínio e acesso
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[58,108] Dashboard
+[272,119] Configurações institucionais
+[58,149] Instituição
+[272,157] Identidade visual, integrações, notificações e acesso
+[58,190] Unidades
+[58,231] Usuários
+[288,231] Identidade visual
+[438,231] Integrações
+[554,231] Notificações
+[675,231] Domínio e acesso
+[58,272] Turmas
+[297,309] Domínio e acesso
+[58,313] Relatórios
+[297,344] Domínio da instituição
+[58,354] Planos e licenças
+[310,377] colegio.edu.ai
+[58,395] Privacidade e auditoria
+[297,420] E-mail institucional permitido
+[58,436] Configurações
+[310,453] @colegio.edu
+[297,498] Login único (SSO)
+[297,534] Autenticação em duas etapas para gestores
+[315,578] Salvar alterações
+
+=== H02c · Instituição – aba Cursos e séries
+[1301,18] Carla Mendes
+[62,20] EDU.AI
+[286,24] Buscar...
+[1301,34] Gestora institucional
+[62,42] Plataforma de aprendizagem
+[20,82] MENU DO GESTOR
+[272,97] Instituição e unidades
+[58,108] Dashboard
+[1284,116] + Nova unidade
+[272,135] Cadastro da organização, logotipo, unidades e estrutura pedagógica
+[58,149] Instituição
+[288,187] Dados da instituição
+[461,187] Unidades
+[561,187] Cursos e séries
+[702,187] Períodos letivos
+[845,187] Departamentos
+[58,190] Unidades
+[58,231] Usuários
+[289,251] Curso / série
+[925,251] Unidade
+[1077,251] Turmas
+[1179,251] Alunos
+[1281,251] Status
+[58,272] Turmas
+[289,294] Ensino Fundamental II
+[925,294] Centro
+[1077,294] 8
+[1179,294] 240
+[1291,294] Ativo
+[58,313] Relatórios
+[289,342] Ensino Médio
+[925,342] Norte
+[1077,342] 6
+[1179,342] 190
+[1291,342] Ativo
+[58,354] Planos e licenças
+[289,390] Preparatório ENEM
+[925,390] Sul
+[1077,390] 3
+[1179,390] 95
+[1291,390] Ativo
+[58,395] Privacidade e auditoria
+[58,436] Configurações
+[289,438] Técnico em Informática
+[925,438] EAD
+[1077,438] 2
+[1179,438] 60
+[1291,438] Rascunho

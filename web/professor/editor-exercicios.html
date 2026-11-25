@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor – Exercícios e simulado · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <a class="logo" href="../professor/visao-geral.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+    <p class="menu__titulo">Menu do professor</p>
+    <nav class="menu" aria-label="Menu do professor"><a href="../professor/visao-geral.html">Visão geral</a><a href="../professor/disciplinas.html">Minhas disciplinas</a><a href="../professor/turmas.html">Turmas e alunos</a><a href="../professor/biblioteca.html">Biblioteca de conteúdos</a><a href="../professor/estudio-ia.html">Estúdio de IA</a><a href="../professor/editor-resumo.html" class="ativo" aria-current="page">Editor de materiais</a><a href="../professor/atividades.html">Atividades e avaliações</a><a href="../jogos/lista.html">Jogos ao vivo</a><a href="../professor/desempenho.html">Desempenho</a><a href="../professor/configuracoes.html">Configurações</a></nav>
+  </aside>
+  <div class="principal">
+    <header class="topo">
+      <button type="button" class="icone-botao menu-mobile" data-acao="menu" aria-label="Abrir menu"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <input class="topo__busca" type="search" placeholder="Buscar..." aria-label="Buscar">
+      <div class="topo__acoes">
+        <button type="button" class="icone-botao" data-popover="pop-notificacoes" aria-label="Notificações" aria-expanded="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="icone-botao__ponto"></span></button>
+        <a class="icone-botao" href="../acesso/ajuda.html" aria-label="Ajuda"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></a>
+        <button type="button" class="usuario" data-popover="pop-usuario" aria-label="Menu do usuário"><span class="avatar">AS</span><span class="usuario__textos"><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Professor</span></span></button>
+        <div class="popover popover--notificacoes" id="pop-notificacoes" hidden data-fechavel><div class="popover__topo"><strong>Notificações</strong><a href="#">Marcar todas como lidas</a></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>A IA terminou de processar "Funções do 1º grau"</strong><span>há 2 min · Biblioteca</span></div></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>18 alunos entregaram "Revisão de ciências"</strong><span>há 1 h · Atividades</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Jogo "Desafio de história" começa às 14h</strong><span>hoje · Jogos ao vivo</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Maria Lima aceitou o convite</strong><span>ontem · Turmas</span></div></div><div class="popover__topo" style="border-top:1px solid var(--borda);border-bottom:0"><a href="../acesso/notificacoes.html">Ver todas as notificações</a></div></div><div class="popover popover--usuario" id="pop-usuario" hidden data-fechavel><div class="usuario"><span class="avatar">AS</span><span><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Colégio Exemplo</span></span></div><a href="../acesso/perfil.html">Meu perfil</a><a href="../professor/configuracoes.html">Preferências</a><a href="../acesso/ajuda.html">Ajuda e suporte</a><a href="../telas.html">Alternar perfil / unidade</a><a class="sair" href="../acesso/login.html">Sair</a></div>
+      </div>
+    </header>
+    <main class="conteudo">
+
+<div class="cabecalho"><div><h1>Lista de exercícios · Funções do 1º grau</h1><p>10 questões geradas pela IA</p></div></div>
+<nav class="abas" aria-label="Seções"><a href="../professor/editor-resumo.html">Resumo</a><a href="../professor/editor-mapa-mental.html">Mapa mental</a><a href="../professor/editor-flashcards.html">Flashcards</a><a href="../professor/editor-exercicios.html" class="ativa" aria-current="page">Exercícios</a></nav>
+<div class="editor-barra">
+  <div class="linha"><div class="segmentado" role="group" aria-label="Modo"><button type="button">Visualizar</button><button type="button" class="ativo">Editar</button><button type="button">Responder</button></div><span class="tag tag--amarelo">Rascunho</span></div>
+  <div class="linha"><button type="button" class="btn btn--contorno">Regenerar</button><button type="button" class="btn btn--contorno">Exportar</button><button type="button" class="btn btn--escuro">Salvar rascunho</button><a class="btn btn--primario" href="../professor/publicacao.html">Publicar</a></div>
+</div>
+
+<div class="grade grade-editor">
+  <section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Questões (10)</h2><button type="button" class="btn btn--contorno btn--p">+ Nova</button></div><nav class="cartas-lista"><a href="#">Q1 · Múltipla escolha</a><a href="#">Q2 · Verdadeiro/Falso</a><a href="#" class="ativo">Q3 · Múltipla escolha</a><a href="#">Q4 · Múltipla escolha</a><a href="#">Q5 · Discursiva</a><a href="#">Q6 · Múltipla escolha</a></nav></section>
+  <section class="cartao">
+    <div class="linha linha--entre"><strong>Questão 3 de 10</strong><div class="linha"><span class="tag tag--azul">Múltipla escolha</span><span class="tag tag--cinza">Nível médio</span></div></div>
+    <label class="campo"><span>Enunciado</span><textarea class="entrada" placeholder="">Qual é o coeficiente angular da função f(x) = 3x − 5?</textarea></label>
+    <div class="alternativas"><label class="alternativa"><input type="radio" name="alt"> A) −5</label><label class="alternativa alternativa--correta"><input type="radio" name="alt" checked> B) 3 <span class="tag tag--verde">Correta</span></label><label class="alternativa"><input type="radio" name="alt"> C) 5</label><label class="alternativa"><input type="radio" name="alt"> D) 0</label></div>
+    <label class="campo"><span>Explicação mostrada ao aluno</span><textarea class="entrada" placeholder="">O coeficiente angular é o número que multiplica x.</textarea></label>
+    <div class="linha"><button type="button" class="btn btn--contorno btn--p">Duplicar</button><button type="button" class="btn btn--contorno btn--p">Regenerar questão</button><button type="button" class="btn btn--perigo btn--p">Excluir</button></div>
+  </section>
+  <section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Ajustes da IA</h2></div><div class="campo"><span>Dificuldade</span><div class="segmentado" role="group"><button type="button">Fácil</button><button type="button" class="ativo">Médio</button><button type="button">Difícil</button></div></div><label class="campo"><span>Quantidade de questões</span><input class="entrada" type="number" value="10" placeholder=""></label><div class="campo"><span>Tipos de questão</span><label class="check"><input type="checkbox" checked> Múltipla escolha</label><label class="check"><input type="checkbox" checked> Verdadeiro ou falso</label><label class="check"><input type="checkbox"> Discursiva</label></div><div class="switch-linha"><span>Salvar no banco de questões</span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="Salvar no banco de questões"></button></div><button type="button" class="btn btn--contorno btn--bloco">Regenerar lista</button></section>
+</div>
+    </main>
+  </div>
+</div>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

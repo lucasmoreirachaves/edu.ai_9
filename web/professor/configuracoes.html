@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurações do professor · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <a class="logo" href="../professor/visao-geral.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+    <p class="menu__titulo">Menu do professor</p>
+    <nav class="menu" aria-label="Menu do professor"><a href="../professor/visao-geral.html">Visão geral</a><a href="../professor/disciplinas.html">Minhas disciplinas</a><a href="../professor/turmas.html">Turmas e alunos</a><a href="../professor/biblioteca.html">Biblioteca de conteúdos</a><a href="../professor/estudio-ia.html">Estúdio de IA</a><a href="../professor/editor-resumo.html">Editor de materiais</a><a href="../professor/atividades.html">Atividades e avaliações</a><a href="../jogos/lista.html">Jogos ao vivo</a><a href="../professor/desempenho.html">Desempenho</a><a href="../professor/configuracoes.html" class="ativo" aria-current="page">Configurações</a></nav>
+  </aside>
+  <div class="principal">
+    <header class="topo">
+      <button type="button" class="icone-botao menu-mobile" data-acao="menu" aria-label="Abrir menu"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <input class="topo__busca" type="search" placeholder="Buscar..." aria-label="Buscar">
+      <div class="topo__acoes">
+        <button type="button" class="icone-botao" data-popover="pop-notificacoes" aria-label="Notificações" aria-expanded="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="icone-botao__ponto"></span></button>
+        <a class="icone-botao" href="../acesso/ajuda.html" aria-label="Ajuda"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></a>
+        <button type="button" class="usuario" data-popover="pop-usuario" aria-label="Menu do usuário"><span class="avatar">AS</span><span class="usuario__textos"><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Professor</span></span></button>
+        <div class="popover popover--notificacoes" id="pop-notificacoes" hidden data-fechavel><div class="popover__topo"><strong>Notificações</strong><a href="#">Marcar todas como lidas</a></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>A IA terminou de processar "Funções do 1º grau"</strong><span>há 2 min · Biblioteca</span></div></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>18 alunos entregaram "Revisão de ciências"</strong><span>há 1 h · Atividades</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Jogo "Desafio de história" começa às 14h</strong><span>hoje · Jogos ao vivo</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Maria Lima aceitou o convite</strong><span>ontem · Turmas</span></div></div><div class="popover__topo" style="border-top:1px solid var(--borda);border-bottom:0"><a href="../acesso/notificacoes.html">Ver todas as notificações</a></div></div><div class="popover popover--usuario" id="pop-usuario" hidden data-fechavel><div class="usuario"><span class="avatar">AS</span><span><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Colégio Exemplo</span></span></div><a href="../acesso/perfil.html">Meu perfil</a><a href="../professor/configuracoes.html">Preferências</a><a href="../acesso/ajuda.html">Ajuda e suporte</a><a href="../telas.html">Alternar perfil / unidade</a><a class="sair" href="../acesso/login.html">Sair</a></div>
+      </div>
+    </header>
+    <main class="conteudo">
+
+<div class="cabecalho"><div><h1>Configurações</h1><p>Perfil, notificações e preferências de uso da IA.</p></div></div>
+<div class="grade grade-2">
+  <div class="pilha">
+    <section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Perfil</h2></div><div class="linha"><span class="avatar avatar--xg">AS</span><button type="button" class="btn btn--contorno btn--p">Trocar foto</button></div><label class="campo"><span>Nome</span><input class="entrada" type="text" value="Ana Souza" placeholder=""></label><label class="campo"><span>E-mail</span><input class="entrada" type="email" value="ana.souza@colegio.edu.br" placeholder=""></label><label class="campo"><span>Disciplinas</span><input class="entrada" type="text" value="Matemática" placeholder=""></label><button type="button" class="btn btn--primario">Salvar perfil</button></section>
+    <section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Notificações</h2></div><div class="switch-linha"><span>IA terminou de processar um conteúdo</span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="IA terminou de processar um conteúdo"></button></div><div class="switch-linha"><span>Novas entregas de alunos</span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="Novas entregas de alunos"></button></div><div class="switch-linha"><span>Lembretes de jogos agendados</span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="Lembretes de jogos agendados"></button></div><div class="switch-linha"><span>Resumo semanal por e-mail</span><button type="button" class="switch" role="switch" aria-checked="false" aria-label="Resumo semanal por e-mail"></button></div></section>
+  </div>
+  <div class="pilha">
+    <section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Preferências da IA</h2></div><div class="campo"><span>Tom dos textos gerados</span><div class="segmentado" role="group"><button type="button">Simples</button><button type="button" class="ativo">Equilibrado</button><button type="button">Técnico</button></div></div><label class="campo"><span>Idioma</span><select class="entrada"><option selected>Português (Brasil)</option><option>English</option><option>Español</option></select></label><label class="campo"><span>Nível padrão de dificuldade</span><select class="entrada"><option>Fácil</option><option selected>Médio</option><option>Difícil</option></select></label><div class="switch-linha"><span>Exigir revisão antes de publicar<small>Regra da plataforma — não pode ser desativada</small></span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="Exigir revisão antes de publicar" disabled></button></div></section>
+    <section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Privacidade e dados</h2></div><div class="switch-linha"><span>Permitir uso dos meus conteúdos para melhorar a IA da instituição</span><button type="button" class="switch" role="switch" aria-checked="false" aria-label="Permitir uso dos meus conteúdos para melhorar a IA da instituição"></button></div><button type="button" class="btn btn--contorno">Exportar meus dados</button></section>
+  </div>
+</div>
+    </main>
+  </div>
+</div>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

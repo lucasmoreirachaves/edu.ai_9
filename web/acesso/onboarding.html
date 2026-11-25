@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Onboarding da instituição · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<main class="centralizado">
+  <a class="logo" href="../index.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+  <div class="passos"><span class="passo passo--atual"><span class="passo__n">1</span>Dados da instituição</span><span class="passos__linha"></span><span class="passo "><span class="passo__n">2</span>Unidades e cursos</span><span class="passos__linha"></span><span class="passo "><span class="passo__n">3</span>Convidar equipe</span><span class="passos__linha"></span><span class="passo "><span class="passo__n">4</span>Escolher plano</span></div>
+  <form class="cartao acesso__caixa" style="width:min(620px,100%);padding:32px" data-demo="../gestor/dashboard.html">
+    <h2>Conte sobre a sua instituição</h2>
+    <p class="texto-suave">Essas informações personalizam a plataforma para professores e alunos.</p>
+    <label class="campo"><span>Nome da instituição</span><input class="entrada" type="text" value="" placeholder="Ex.: Colégio Exemplo"></label>
+    <div class="campos-2">
+      <label class="campo"><span>CNPJ</span><input class="entrada" type="text" value="" placeholder="00.000.000/0001-00"></label>
+      <label class="campo"><span>Tipo de instituição</span><select class="entrada"><option selected>Escola</option><option>Curso profissionalizante</option><option>Preparatório</option></select></label>
+    </div>
+    <div class="campos-2">
+      <div class="campo"><span>Logotipo</span><div class="upload" style="padding:18px"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/><path d="M12 3v12M7 8l5-5 5 5"/></svg><span class="texto-fraco">Arraste ou clique para enviar</span></div></div>
+      <div class="campo"><span>Cor principal</span><div class="linha"><input type="color" value="#172033" aria-label="Cor principal" style="width:44px;height:40px;border:1px solid var(--borda-forte);border-radius:8px"><input class="entrada" value="#172033" style="flex:1" aria-label="Código da cor"></div></div>
+    </div>
+    <div class="linha linha--entre"><a class="btn btn--contorno" href="../acesso/login.html">Cancelar</a><button type="submit" class="btn btn--primario">Continuar</button></div>
+  </form>
+</main>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div class="acesso">
+  <section class="acesso__marca">
+    <a class="logo" href="../index.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+    <h1>Do material do professor à aprendizagem de cada aluno.</h1>
+    <ul><li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FACC15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>IA que gera resumos, mapas mentais e exercícios</li><li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FACC15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Jogos ao vivo para engajar a turma</li><li><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FACC15" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>Indicadores para professores e gestores</li></ul>
+    <div class="ph" style="max-width:320px;min-height:180px">ilustração / imagem de marca</div>
+  </section>
+  <main class="acesso__lado">
+    <form class="cartao acesso__caixa" style="padding:32px" data-demo="../professor/visao-geral.html">
+      <h1>Entrar na plataforma</h1>
+      <p class="texto-suave">Use o e-mail cadastrado pela sua instituição.</p>
+      <label class="campo"><span>Código da instituição</span><input class="entrada" type="text" value="" placeholder="ex.: escola-exemplo"></label>
+      <label class="campo"><span>E-mail</span><input class="entrada" type="email" value="" placeholder="nome@instituicao.edu.br"></label>
+      <label class="campo"><span>Senha</span><input class="entrada" type="password" value="" placeholder="••••••••"></label>
+      <div class="linha linha--entre"><label class="check"><input type="checkbox"> Manter conectado</label><a href="#">Esqueci minha senha</a></div>
+      <button type="submit" class="btn btn--primario btn--g btn--bloco">Entrar</button>
+      <p class="texto-fraco">ou</p>
+      <button type="button" class="btn btn--contorno btn--g btn--bloco">Entrar com SSO da instituição</button>
+      <p class="texto-fraco">Ainda não tem acesso? Fale com o administrador da sua instituição.</p>
+      <p class="texto-fraco">Demonstração: entrar como <a href="../professor/visao-geral.html">professor</a>, <a href="../aluno/inicio.html">aluno</a> ou <a href="../gestor/dashboard.html">gestor</a>.</p>
+    </form>
+  </main>
+</div>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

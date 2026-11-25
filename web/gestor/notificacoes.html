@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Configurações – Notificações · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <a class="logo" href="../gestor/dashboard.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+    <p class="menu__titulo">Menu do gestor</p>
+    <nav class="menu" aria-label="Menu do gestor"><a href="../gestor/dashboard.html">Dashboard</a><a href="../gestor/instituicao.html">Instituição</a><a href="../gestor/instituicao.html#unidades">Unidades</a><a href="../gestor/usuarios.html">Usuários</a><a href="../gestor/turmas.html">Turmas</a><a href="../gestor/relatorios.html">Relatórios</a><a href="../gestor/planos.html">Planos e licenças</a><a href="../gestor/auditoria.html">Privacidade e auditoria</a><a href="../gestor/integracoes.html" class="ativo" aria-current="page">Configurações</a></nav>
+  </aside>
+  <div class="principal">
+    <header class="topo">
+      <button type="button" class="icone-botao menu-mobile" data-acao="menu" aria-label="Abrir menu"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <input class="topo__busca" type="search" placeholder="Buscar..." aria-label="Buscar">
+      <div class="topo__acoes">
+        <button type="button" class="icone-botao" data-popover="pop-notificacoes" aria-label="Notificações" aria-expanded="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="icone-botao__ponto"></span></button>
+        <a class="icone-botao" href="../acesso/ajuda.html" aria-label="Ajuda"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></a>
+        <button type="button" class="usuario" data-popover="pop-usuario" aria-label="Menu do usuário"><span class="avatar">CM</span><span class="usuario__textos"><span class="usuario__nome">Carla Mendes</span><span class="usuario__papel">Gestora institucional</span></span></button>
+        <div class="popover popover--notificacoes" id="pop-notificacoes" hidden data-fechavel><div class="popover__topo"><strong>Notificações</strong><a href="#">Marcar todas como lidas</a></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>3 turmas com baixa participação na Unidade Sul</strong><span>há 1 h · Relatórios</span></div></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>Consumo de IA em 62% do limite mensal</strong><span>hoje · Planos</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Paula Dias ainda não aceitou o convite</strong><span>ontem · Usuários</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Fatura de novembro disponível</strong><span>há 2 dias · Faturamento</span></div></div><div class="popover__topo" style="border-top:1px solid var(--borda);border-bottom:0"><a href="../acesso/notificacoes.html">Ver todas as notificações</a></div></div><div class="popover popover--usuario" id="pop-usuario" hidden data-fechavel><div class="usuario"><span class="avatar">CM</span><span><span class="usuario__nome">Carla Mendes</span><span class="usuario__papel">Colégio Exemplo</span></span></div><a href="../acesso/perfil.html">Meu perfil</a><a href="../gestor/integracoes.html">Preferências</a><a href="../acesso/ajuda.html">Ajuda e suporte</a><a href="../telas.html">Alternar perfil / unidade</a><a class="sair" href="../acesso/login.html">Sair</a></div>
+      </div>
+    </header>
+    <main class="conteudo">
+
+<div class="cabecalho"><div><h1>Configurações institucionais</h1><p>Identidade visual, integrações, notificações e acesso</p></div></div>
+<nav class="abas" aria-label="Seções"><a href="../gestor/identidade-visual.html">Identidade visual</a><a href="../gestor/integracoes.html">Integrações</a><a href="../gestor/notificacoes.html" class="ativa" aria-current="page">Notificações</a><a href="../gestor/dominio-acesso.html">Domínio e acesso</a></nav>
+<section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Alertas enviados por e-mail e na plataforma</h2></div><div class="switch-linha"><span>Novo material publicado</span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="Novo material publicado"></button></div><div class="switch-linha"><span>Atividade com prazo próximo</span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="Atividade com prazo próximo"></button></div><div class="switch-linha"><span>Consumo de IA acima de 80%</span><button type="button" class="switch" role="switch" aria-checked="true" aria-label="Consumo de IA acima de 80%"></button></div><div class="switch-linha"><span>Relatório semanal aos coordenadores</span><button type="button" class="switch" role="switch" aria-checked="false" aria-label="Relatório semanal aos coordenadores"></button></div><button type="button" class="btn btn--primario">Salvar alterações</button></section>
+    </main>
+  </div>
+</div>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

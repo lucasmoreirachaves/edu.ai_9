@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDU.AI · Plataforma de aprendizagem</title>
+  <meta name="theme-color" content="#172033">
+  <script>
+    /* tema antes da primeira pintura: a escolha salva ou, sem escolha, a do sistema */
+    var tema = null;
+    try { tema = localStorage.getItem('edu_tema'); } catch (e) { /* armazenamento bloqueado */ }
+    document.documentElement.dataset.tema = tema || (matchMedia('(prefers-color-scheme: dark)').matches ? 'escuro' : 'claro');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+  <link rel="stylesheet" href="plataforma.css">
+</head>
+<body>
+  <div id="app"><div class="carregando" style="min-height:100vh"><span class="spinner"></span> Carregando…</div></div>
+  <noscript>A plataforma EDU.AI precisa de JavaScript ativado.</noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EDU.AI – Plataforma de aprendizagem com IA</title>
+  <meta name="description" content="Envie um documento e a IA gera resumos, mapas mentais, flashcards e exercícios. O professor revisa, publica e acompanha o desempenho de cada aluno.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- ================= HERO ================= -->
+  <header class="hero" id="topo">
+    <nav class="nav container" aria-label="Principal">
+      <a href="#topo" class="logo">
+        <span class="logo__marca">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg>
+        </span>
+        <span class="logo__textos">
+          <span class="logo__nome">EDU.AI</span>
+          <span class="logo__sub">Plataforma de aprendizagem</span>
+        </span>
+      </a>
+
+      <div class="nav__links">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#perfis">Para quem</a>
+        <a href="#perguntas">Perguntas</a>
+      </div>
+
+      <div class="nav__acoes">
+        <a href="app/#/login" class="btn btn--contorno-claro">Entrar</a>
+        <a href="#demo" class="btn btn--primario">Agendar demonstração</a>
+      </div>
+    </nav>
+
+    <div class="hero__conteudo container">
+      <div class="hero__texto">
+        <span class="hero__selo">Plataforma educacional B2B com IA</span>
+        <h1 class="hero__titulo">Do material do professor à aprendizagem de cada aluno.</h1>
+        <p class="hero__descricao">Envie um documento e a IA gera resumos, mapas mentais, flashcards e exercícios. O professor revisa, publica para as turmas e acompanha onde cada aluno tem dificuldade.</p>
+
+        <div class="hero__botoes">
+          <a href="app/#/demo/professor" class="btn btn--primario btn--grande">Experimentar a demonstração</a>
+          <a href="#como-funciona" class="btn btn--contorno-claro btn--grande">Ver como funciona</a>
+        </div>
+
+        <ul class="beneficios">
+          <li>
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FACC15" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+            IA que gera resumos, mapas mentais e exercícios
+          </li>
+          <li>
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FACC15" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+            Jogos ao vivo para engajar a turma
+          </li>
+          <li>
+            <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FACC15" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></svg>
+            Indicadores para professores e gestores
+          </li>
+        </ul>
+      </div>
+
+      <!-- Prévia do painel do professor -->
+      <div class="hero__previa">
+        <div class="painel" role="img" aria-label="Prévia do painel do professor com turmas ativas, atividades pendentes, progresso da turma e gráfico de desempenho">
+          <div class="painel__topo">
+            <div class="painel__saudacao">
+              <strong>Bom dia, professor!</strong>
+              <span>Acompanhe suas turmas e continue criando materiais.</span>
+            </div>
+            <span class="painel__botao">Gerar com IA</span>
+          </div>
+
+          <div class="abas">
+            <span class="abas__ativa">Conteúdos</span>
+            <span>Materiais de estudo</span>
+            <span>Atividades</span>
+            <span>Jogos</span>
+          </div>
+
+          <div class="painel__linha">
+            <div class="kpi">
+              <span class="kpi__rotulo">Turmas ativas</span>
+              <span class="kpi__valor">04</span>
+              <span class="kpi__nota kpi__nota--positiva">+1 neste mês</span>
+            </div>
+            <div class="kpi">
+              <span class="kpi__rotulo">Atividades pendentes</span>
+              <span class="kpi__valor">03</span>
+              <span class="kpi__nota kpi__nota--alerta">2 vencem hoje</span>
+            </div>
+          </div>
+
+          <div class="painel__linha">
+            <div class="kpi kpi--progresso">
+              <span class="kpi__rotulo">Progresso da turma</span>
+              <div class="progresso"><div class="progresso__barra"></div></div>
+              <span class="kpi__legenda">Funções do 1º grau</span>
+            </div>
+            <div class="kpi kpi--grafico">
+              <span class="kpi__rotulo">Desempenho por assunto</span>
+              <div class="grafico">
+                <span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="aviso aviso--compacto">
+            <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A16207" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></svg>
+            A IA gera um rascunho. Revise, edite e publique.
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= COMO FUNCIONA ================= -->
+    <section class="secao secao--cinza" id="como-funciona">
+      <div class="container">
+        <div class="secao__cabecalho">
+          <span class="eyebrow">Como funciona</span>
+          <h2 class="titulo-secao">Do material do professor à melhoria da aprendizagem</h2>
+          <p class="texto-secao">Seis etapas conectam o que o professor já tem em mãos ao estudo de cada aluno, com a IA fazendo o trabalho pesado e o professor sempre no controle.</p>
+        </div>
+
+        <ol class="grade etapas">
+          <li class="cartao">
+            <span class="etapa__numero">1</span>
+            <h3>Professor envia o material</h3>
+            <p>Documento, resumo extenso ou material didático.</p>
+            <span class="tag tag--professor">Professor</span>
+          </li>
+          <li class="cartao">
+            <span class="etapa__numero">2</span>
+            <h3>IA interpreta o conteúdo</h3>
+            <p>Extrai tópicos, conceitos, definições e referências.</p>
+            <span class="tag tag--ia">IA</span>
+          </li>
+          <li class="cartao">
+            <span class="etapa__numero">3</span>
+            <h3>Gera o pacote de aprendizagem</h3>
+            <p>Resumos, mapas mentais, flashcards e exercícios.</p>
+            <span class="tag tag--ia">IA</span>
+          </li>
+          <li class="cartao">
+            <span class="etapa__numero">4</span>
+            <h3>Professor revisa e publica</h3>
+            <p>Edita, seleciona os materiais e define as turmas.</p>
+            <span class="tag tag--professor">Professor</span>
+          </li>
+          <li class="cartao">
+            <span class="etapa__numero">5</span>
+            <h3>Aluno estuda e pratica</h3>
+            <p>Estudo individual, tarefas e jogos interativos.</p>
+            <span class="tag tag--aluno">Aluno</span>
+          </li>
+          <li class="cartao">
+            <span class="etapa__numero">6</span>
+            <h3>Sistema identifica dificuldades</h3>
+            <p>Relatórios e recomendações de revisão para professor e aluno.</p>
+            <span class="tag tag--sistema">Sistema</span>
+          </li>
+        </ol>
+
+        <div class="aviso">
+          <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A16207" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>
+          <p>O ciclo se fecha: os resultados dos alunos mostram onde há dificuldade e alimentam novas revisões, exercícios e jogos criados pela IA, sempre com revisão do professor antes de publicar.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RECURSOS ================= -->
+    <section class="secao" id="recursos">
+      <div class="container">
+        <div class="secao__cabecalho">
+          <span class="eyebrow">Recursos</span>
+          <h2 class="titulo-secao">Tudo o que a turma precisa, em um só lugar</h2>
+        </div>
+
+        <div class="grade">
+          <article class="cartao">
+            <span class="recurso__icone recurso__icone--amarelo">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 4.6L18.5 9.5l-4.6 1.9L12 16l-1.9-4.6L5.5 9.5l4.6-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></svg>
+            </span>
+            <h3>Estúdio de IA</h3>
+            <p>Gere resumos, mapas mentais, flashcards e exercícios a partir do material enviado, com observações para orientar a IA.</p>
+          </article>
+          <article class="cartao">
+            <span class="recurso__icone recurso__icone--azul">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h10l6 6v10H4z"/><path d="M14 4v6h6"/><path d="M12 13v5M9.5 15.5 12 13l2.5 2.5"/></svg>
+            </span>
+            <h3>Biblioteca de conteúdos</h3>
+            <p>Faça upload dos seus documentos e acompanhe o processamento pela IA, organizado por disciplina.</p>
+          </article>
+          <article class="cartao">
+            <span class="recurso__icone recurso__icone--verde">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="m9 10 2 2 4-4"/><path d="M9 16h6"/></svg>
+            </span>
+            <h3>Atividades e avaliações</h3>
+            <p>Monte listas com o banco de questões e conte com correção automática para dar retorno rápido aos alunos.</p>
+          </article>
+          <article class="cartao">
+            <span class="recurso__icone recurso__icone--amarelo">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="11" rx="5"/><path d="M7 10.5v4M5 12.5h4"/><circle cx="16" cy="11.5" r="0.8"/><circle cx="18" cy="13.8" r="0.8"/></svg>
+            </span>
+            <h3>Jogos ao vivo</h3>
+            <p>Desafios em tempo real na sala de aula. Os alunos entram com um código de acesso, direto do celular.</p>
+          </article>
+          <article class="cartao">
+            <span class="recurso__icone recurso__icone--azul">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            </span>
+            <h3>Desempenho por assunto</h3>
+            <p>Relatórios mostram onde cada aluno e cada turma têm dificuldade, com recomendações de revisão.</p>
+          </article>
+          <article class="cartao">
+            <span class="recurso__icone recurso__icone--cinza">
+              <svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/></svg>
+            </span>
+            <h3>Gestão da instituição</h3>
+            <p>Unidades, cursos e séries, convites e importação de usuários, papéis e permissões, e auditoria de privacidade.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROFESSOR NO CONTROLE ================= -->
+    <section class="secao secao--escura">
+      <div class="container controle">
+        <div class="controle__texto">
+          <span class="eyebrow eyebrow--claro">Professor no controle</span>
+          <h2 class="titulo-secao">Nada é publicado automaticamente.</h2>
+          <p class="texto-secao">A IA entrega um rascunho. O professor visualiza, edita cada resumo, mapa ou exercício e só então escolhe para quais turmas publicar. A qualidade pedagógica continua nas mãos de quem conhece a turma.</p>
+        </div>
+
+        <div class="controle__previa">
+          <div class="editor" role="img" aria-label="Prévia do editor de materiais com o resumo em revisão e a opção de revisão obrigatória ativada">
+            <div class="editor__topo">
+              <strong>Resumo: Funções do 1º grau</strong>
+              <span class="tag tag--professor">Em revisão</span>
+            </div>
+            <div class="segmentado">
+              <span>Visualizar</span>
+              <span class="segmentado__ativo">Editar</span>
+              <span>Responder</span>
+            </div>
+            <div class="linhas-texto">
+              <span></span><span></span><span></span><span></span>
+            </div>
+            <div class="alternancia">
+              <div class="alternancia__texto">
+                <strong>Gerar com IA</strong>
+                <span>Revisão obrigatória</span>
+              </div>
+              <span class="switch"></span>
+            </div>
+            <div class="editor__acoes">
+              <span class="mini-botao">Salvar rascunho</span>
+              <span class="mini-botao mini-botao--publicar">Publicar</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PARA QUEM ================= -->
+    <section class="secao secao--cinza" id="perfis">
+      <div class="container">
+        <div class="secao__cabecalho">
+          <span class="eyebrow">Para quem</span>
+          <h2 class="titulo-secao">Um ambiente para cada papel na escola</h2>
+        </div>
+
+        <div class="grade">
+          <article class="perfil">
+            <h3>Gestor</h3>
+            <p>Configura a instituição e acompanha os resultados de forma agregada.</p>
+            <ul class="lista-check">
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Instituição, unidades e cursos</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Convites e importação de usuários</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Planos, licenças e consumo de IA</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Indicadores e relatórios da instituição</li>
+            </ul>
+          </article>
+
+          <article class="perfil perfil--professor">
+            <h3>Professor</h3>
+            <p>Cria, revisa e publica materiais para as suas turmas.</p>
+            <ul class="lista-check">
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Envio de conteúdos e geração com IA</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Revisão e publicação dos materiais</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Atividades e jogos ao vivo</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Desempenho de cada turma</li>
+            </ul>
+          </article>
+
+          <article class="perfil perfil--aluno">
+            <h3>Aluno</h3>
+            <p>Estuda no próprio ritmo com o que o professor publicou.</p>
+            <ul class="lista-check">
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Resumos, mapas mentais e flashcards</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Atividades com resultado e revisão</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Jogos com código de acesso</li>
+              <li><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#16A34A" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5 9-10"/></svg>Acompanhamento do próprio desempenho</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PERGUNTAS ================= -->
+    <section class="secao" id="perguntas">
+      <div class="container faq-container">
+        <div class="secao__cabecalho">
+          <span class="eyebrow">Perguntas frequentes</span>
+          <h2 class="titulo-secao">Ficou com alguma dúvida?</h2>
+        </div>
+
+        <div class="faq">
+          <div class="faq__item">
+            <h3>Como a IA usa meus documentos?</h3>
+            <p>A IA lê o material enviado para extrair tópicos, conceitos, definições e referências e montar os materiais de estudo. [Descreva aqui a política de privacidade e de retenção de dados.]</p>
+          </div>
+          <div class="faq__item">
+            <h3>Posso editar um material gerado?</h3>
+            <p>Sim. Tudo o que a IA gera chega como rascunho no Editor de materiais. Você ajusta resumos, mapas mentais, flashcards e exercícios antes de publicar.</p>
+          </div>
+          <div class="faq__item">
+            <h3>Como entrar em um jogo ao vivo?</h3>
+            <p>O professor inicia o jogo e informa um código. O aluno digita esse código na área de Jogos e entra na partida.</p>
+          </div>
+          <div class="faq__item">
+            <h3>Como professores e alunos recebem acesso?</h3>
+            <p>O gestor cadastra a instituição e convida a equipe. Cada pessoa ativa a conta pelo convite, e alunos também podem entrar com o código da turma.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CHAMADA FINAL ================= -->
+    <section class="cta" id="demo">
+      <div class="container">
+        <div class="cta__caixa">
+          <div class="cta__texto">
+            <h2 class="cta__titulo">Leve o EDU.AI para a sua instituição</h2>
+            <p class="cta__descricao">Escolas, cursos profissionalizantes e preparatórios. Converse com a gente e veja a plataforma funcionando com o seu material.</p>
+            <p class="cta__descricao" style="margin-top:12px">Ou experimente agora, sem cadastro: entre como
+              <a href="app/#/demo/professor" style="color:#FACC15;font-weight:600">professora</a>,
+              <a href="app/#/demo/aluno" style="color:#FACC15;font-weight:600">aluna</a> ou
+              <a href="app/#/demo/gestor" style="color:#FACC15;font-weight:600">gestor</a>.</p>
+          </div>
+          <div class="cta__botoes" id="entrar">
+            <a href="#demo" class="btn btn--primario btn--grande">Agendar demonstração</a>
+            <a href="app/#/login" class="btn btn--contorno-claro btn--grande">Já tenho acesso</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= RODAPÉ ================= -->
+  <footer class="rodape">
+    <div class="container rodape__conteudo">
+      <a href="#topo" class="logo">
+        <span class="logo__marca logo__marca--escura">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#FACC15" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg>
+        </span>
+        <span class="logo__nome">EDU.AI</span>
+      </a>
+      <div class="rodape__links">
+        <a href="#perguntas">Central de ajuda</a>
+        <a href="#termos">Termos de Uso</a>
+        <a href="#privacidade">Política de Privacidade</a>
+      </div>
+      <span class="rodape__copy">© 2026 EDU.AI</span>
+    </div>
+  </footer>
+
+</body>
+</html>

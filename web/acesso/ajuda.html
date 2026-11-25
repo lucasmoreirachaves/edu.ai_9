@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Central de ajuda · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <a class="logo" href="../professor/visao-geral.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+    <p class="menu__titulo">Menu do professor</p>
+    <nav class="menu" aria-label="Menu do professor"><a href="../professor/visao-geral.html">Visão geral</a><a href="../professor/disciplinas.html">Minhas disciplinas</a><a href="../professor/turmas.html">Turmas e alunos</a><a href="../professor/biblioteca.html">Biblioteca de conteúdos</a><a href="../professor/estudio-ia.html">Estúdio de IA</a><a href="../professor/editor-resumo.html">Editor de materiais</a><a href="../professor/atividades.html">Atividades e avaliações</a><a href="../jogos/lista.html">Jogos ao vivo</a><a href="../professor/desempenho.html">Desempenho</a><a href="../professor/configuracoes.html">Configurações</a></nav>
+  </aside>
+  <div class="principal">
+    <header class="topo">
+      <button type="button" class="icone-botao menu-mobile" data-acao="menu" aria-label="Abrir menu"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <input class="topo__busca" type="search" placeholder="Buscar..." aria-label="Buscar">
+      <div class="topo__acoes">
+        <button type="button" class="icone-botao" data-popover="pop-notificacoes" aria-label="Notificações" aria-expanded="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="icone-botao__ponto"></span></button>
+        <a class="icone-botao" href="../acesso/ajuda.html" aria-label="Ajuda"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></a>
+        <button type="button" class="usuario" data-popover="pop-usuario" aria-label="Menu do usuário"><span class="avatar">AS</span><span class="usuario__textos"><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Professor</span></span></button>
+        <div class="popover popover--notificacoes" id="pop-notificacoes" hidden data-fechavel><div class="popover__topo"><strong>Notificações</strong><a href="#">Marcar todas como lidas</a></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>A IA terminou de processar "Funções do 1º grau"</strong><span>há 2 min · Biblioteca</span></div></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>18 alunos entregaram "Revisão de ciências"</strong><span>há 1 h · Atividades</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Jogo "Desafio de história" começa às 14h</strong><span>hoje · Jogos ao vivo</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Maria Lima aceitou o convite</strong><span>ontem · Turmas</span></div></div><div class="popover__topo" style="border-top:1px solid var(--borda);border-bottom:0"><a href="../acesso/notificacoes.html">Ver todas as notificações</a></div></div><div class="popover popover--usuario" id="pop-usuario" hidden data-fechavel><div class="usuario"><span class="avatar">AS</span><span><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Colégio Exemplo</span></span></div><a href="../acesso/perfil.html">Meu perfil</a><a href="../professor/configuracoes.html">Preferências</a><a href="../acesso/ajuda.html">Ajuda e suporte</a><a href="../telas.html">Alternar perfil / unidade</a><a class="sair" href="../acesso/login.html">Sair</a></div>
+      </div>
+    </header>
+    <main class="conteudo">
+
+<div class="cabecalho"><div><h1>Central de ajuda</h1><p>Guias, perguntas frequentes e contato com o suporte</p></div></div>
+<input class="entrada" type="search" placeholder="Buscar na ajuda..." aria-label="Buscar na ajuda" style="max-width:520px">
+<div class="grade grade-4"><section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Primeiros passos</h2></div><p class="texto-fraco">3 artigos</p></section><section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Enviar conteúdos</h2></div><p class="texto-fraco">3 artigos</p></section><section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Usar o Estúdio de IA</h2></div><p class="texto-fraco">3 artigos</p></section><section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Jogos ao vivo</h2></div><p class="texto-fraco">3 artigos</p></section></div>
+<div class="tabela-caixa"><table class="tabela"><thead><tr><th>Pergunta</th><th>Tema</th></tr></thead><tbody><tr><td>Como a IA usa meus documentos?</td><td><span class="tag tag--cinza">Privacidade</span></td></tr><tr><td>Posso editar um material gerado?</td><td><span class="tag tag--cinza">Editor</span></td></tr><tr><td>Como entrar em um jogo ao vivo?</td><td><span class="tag tag--cinza">Jogos</span></td></tr></tbody></table></div>
+<button type="button" class="btn btn--escuro">Falar com o suporte</button>
+    </main>
+  </div>
+</div>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

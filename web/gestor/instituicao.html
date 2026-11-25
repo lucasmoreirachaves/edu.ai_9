@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instituição e unidades · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <a class="logo" href="../gestor/dashboard.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+    <p class="menu__titulo">Menu do gestor</p>
+    <nav class="menu" aria-label="Menu do gestor"><a href="../gestor/dashboard.html">Dashboard</a><a href="../gestor/instituicao.html" class="ativo" aria-current="page">Instituição</a><a href="../gestor/instituicao.html#unidades">Unidades</a><a href="../gestor/usuarios.html">Usuários</a><a href="../gestor/turmas.html">Turmas</a><a href="../gestor/relatorios.html">Relatórios</a><a href="../gestor/planos.html">Planos e licenças</a><a href="../gestor/auditoria.html">Privacidade e auditoria</a><a href="../gestor/integracoes.html">Configurações</a></nav>
+  </aside>
+  <div class="principal">
+    <header class="topo">
+      <button type="button" class="icone-botao menu-mobile" data-acao="menu" aria-label="Abrir menu"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <input class="topo__busca" type="search" placeholder="Buscar..." aria-label="Buscar">
+      <div class="topo__acoes">
+        <button type="button" class="icone-botao" data-popover="pop-notificacoes" aria-label="Notificações" aria-expanded="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="icone-botao__ponto"></span></button>
+        <a class="icone-botao" href="../acesso/ajuda.html" aria-label="Ajuda"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></a>
+        <button type="button" class="usuario" data-popover="pop-usuario" aria-label="Menu do usuário"><span class="avatar">CM</span><span class="usuario__textos"><span class="usuario__nome">Carla Mendes</span><span class="usuario__papel">Gestora institucional</span></span></button>
+        <div class="popover popover--notificacoes" id="pop-notificacoes" hidden data-fechavel><div class="popover__topo"><strong>Notificações</strong><a href="#">Marcar todas como lidas</a></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>3 turmas com baixa participação na Unidade Sul</strong><span>há 1 h · Relatórios</span></div></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>Consumo de IA em 62% do limite mensal</strong><span>hoje · Planos</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Paula Dias ainda não aceitou o convite</strong><span>ontem · Usuários</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Fatura de novembro disponível</strong><span>há 2 dias · Faturamento</span></div></div><div class="popover__topo" style="border-top:1px solid var(--borda);border-bottom:0"><a href="../acesso/notificacoes.html">Ver todas as notificações</a></div></div><div class="popover popover--usuario" id="pop-usuario" hidden data-fechavel><div class="usuario"><span class="avatar">CM</span><span><span class="usuario__nome">Carla Mendes</span><span class="usuario__papel">Colégio Exemplo</span></span></div><a href="../acesso/perfil.html">Meu perfil</a><a href="../gestor/integracoes.html">Preferências</a><a href="../acesso/ajuda.html">Ajuda e suporte</a><a href="../telas.html">Alternar perfil / unidade</a><a class="sair" href="../acesso/login.html">Sair</a></div>
+      </div>
+    </header>
+    <main class="conteudo">
+
+<div class="cabecalho"><div><h1>Instituição e unidades</h1><p>Dados cadastrais e estrutura acadêmica.</p></div><div class="cabecalho__acoes"><button type="button" class="btn btn--primario">+ Nova unidade</button></div></div>
+<nav class="abas" aria-label="Seções"><a href="../gestor/instituicao.html" class="ativa" aria-current="page">Dados da instituição</a><a href="../gestor/instituicao.html#unidades">Unidades</a><a href="../gestor/cursos-series.html">Cursos e séries</a><a href="../gestor/periodos-letivos.html">Períodos letivos</a><a href="../gestor/departamentos.html">Departamentos</a></nav>
+
+<div class="grade grade-lateral-e" style="grid-template-columns:380px minmax(0,1fr)">
+  <section class="cartao"><div class="cartao__topo"><h2 class="cartao__titulo">Dados da instituição</h2></div><div class="linha"><div class="ph ph--icone" style="width:64px;height:64px">logo</div><button type="button" class="btn btn--contorno btn--p">Trocar logotipo</button></div><label class="campo"><span>Nome da instituição</span><input class="entrada" type="text" value="Colégio Exemplo" placeholder=""></label><label class="campo"><span>CNPJ</span><input class="entrada" type="text" value="00.000.000/0001-00" placeholder=""></label><div class="campo"><span>Cor principal</span><div class="linha"><input type="color" value="#172033" aria-label="Cor principal" style="width:44px;height:40px;border:1px solid var(--borda-forte);border-radius:8px"><input class="entrada" value="#172033" style="flex:1" aria-label="Código da cor"></div></div><button type="button" class="btn btn--primario">Salvar alterações</button></section>
+  <section id="unidades"><section><div class="secao__topo"><h2>Unidades cadastradas</h2></div><div class="tabela-caixa"><table class="tabela"><thead><tr><th>Unidade</th><th>Cidade</th><th>Cursos</th><th>Turmas</th><th>Responsável</th><th>Ações</th></tr></thead><tbody><tr><td>Centro</td><td>Belo Horizonte</td><td>6</td><td>18</td><td>Carla Mendes</td><td><a href="#">Editar</a></td></tr><tr><td>Norte</td><td>Contagem</td><td>4</td><td>12</td><td>Paulo Reis</td><td><a href="#">Editar</a></td></tr><tr><td>Sul</td><td>Betim</td><td>3</td><td>9</td><td>Lúcia Prado</td><td><a href="#">Editar</a></td></tr><tr><td>EAD</td><td>Online</td><td>5</td><td>10</td><td>Rafael Dias</td><td><a href="#">Editar</a></td></tr></tbody></table></div></section></section>
+</div>
+    </main>
+  </div>
+</div>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>

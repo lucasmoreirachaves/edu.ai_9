@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biblioteca de conteúdos · EDU.AI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/app.css">
+</head>
+<body>
+<div class="app">
+  <aside class="lateral">
+    <a class="logo" href="../professor/visao-geral.html"><span class="logo__marca"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#172033" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 5h6a4 4 0 0 1 4 4v11a3 3 0 0 0-3-3H2z"/><path d="M22 5h-6a4 4 0 0 0-4 4v11a3 3 0 0 1 3-3h7z"/></svg></span><span class="logo__textos"><span class="logo__nome">EDU.AI</span><span class="logo__sub">Plataforma de aprendizagem</span></span></a>
+    <p class="menu__titulo">Menu do professor</p>
+    <nav class="menu" aria-label="Menu do professor"><a href="../professor/visao-geral.html">Visão geral</a><a href="../professor/disciplinas.html">Minhas disciplinas</a><a href="../professor/turmas.html">Turmas e alunos</a><a href="../professor/biblioteca.html" class="ativo" aria-current="page">Biblioteca de conteúdos</a><a href="../professor/estudio-ia.html">Estúdio de IA</a><a href="../professor/editor-resumo.html">Editor de materiais</a><a href="../professor/atividades.html">Atividades e avaliações</a><a href="../jogos/lista.html">Jogos ao vivo</a><a href="../professor/desempenho.html">Desempenho</a><a href="../professor/configuracoes.html">Configurações</a></nav>
+  </aside>
+  <div class="principal">
+    <header class="topo">
+      <button type="button" class="icone-botao menu-mobile" data-acao="menu" aria-label="Abrir menu"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <input class="topo__busca" type="search" placeholder="Buscar..." aria-label="Buscar">
+      <div class="topo__acoes">
+        <button type="button" class="icone-botao" data-popover="pop-notificacoes" aria-label="Notificações" aria-expanded="false"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span class="icone-botao__ponto"></span></button>
+        <a class="icone-botao" href="../acesso/ajuda.html" aria-label="Ajuda"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></a>
+        <button type="button" class="usuario" data-popover="pop-usuario" aria-label="Menu do usuário"><span class="avatar">AS</span><span class="usuario__textos"><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Professor</span></span></button>
+        <div class="popover popover--notificacoes" id="pop-notificacoes" hidden data-fechavel><div class="popover__topo"><strong>Notificações</strong><a href="#">Marcar todas como lidas</a></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>A IA terminou de processar "Funções do 1º grau"</strong><span>há 2 min · Biblioteca</span></div></div><div class="notificacao notificacao--nova"><span class="notificacao__icone"></span><div><strong>18 alunos entregaram "Revisão de ciências"</strong><span>há 1 h · Atividades</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Jogo "Desafio de história" começa às 14h</strong><span>hoje · Jogos ao vivo</span></div></div><div class="notificacao"><span class="notificacao__icone"></span><div><strong>Maria Lima aceitou o convite</strong><span>ontem · Turmas</span></div></div><div class="popover__topo" style="border-top:1px solid var(--borda);border-bottom:0"><a href="../acesso/notificacoes.html">Ver todas as notificações</a></div></div><div class="popover popover--usuario" id="pop-usuario" hidden data-fechavel><div class="usuario"><span class="avatar">AS</span><span><span class="usuario__nome">Prof. Ana Souza</span><span class="usuario__papel">Colégio Exemplo</span></span></div><a href="../acesso/perfil.html">Meu perfil</a><a href="../professor/configuracoes.html">Preferências</a><a href="../acesso/ajuda.html">Ajuda e suporte</a><a href="../telas.html">Alternar perfil / unidade</a><a class="sair" href="../acesso/login.html">Sair</a></div>
+      </div>
+    </header>
+    <main class="conteudo">
+
+<div class="cabecalho"><div><h1>Biblioteca de conteúdos</h1><p>Envie, organize e consulte os documentos das suas disciplinas.</p></div><div class="cabecalho__acoes"><a class="btn btn--primario" href="../professor/upload.html">Enviar conteúdo</a></div></div>
+<div class="filtros"><input class="entrada entrada--busca" type="search" placeholder="Buscar documento..." aria-label="Buscar documento..."><select class="entrada" aria-label="Disciplina"><option>Disciplina</option></select><select class="entrada" aria-label="Turma"><option>Turma</option></select><select class="entrada" aria-label="Status da IA"><option>Status da IA</option></select></div>
+<div class="upload"><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 14v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"/><path d="M12 3v12M7 8l5-5 5 5"/></svg><strong>Arraste e solte arquivos aqui</strong><span class="texto-fraco">PDF, DOCX, PPTX ou TXT · até 50 MB</span><a class="btn btn--escuro" href="../professor/upload.html">Selecionar arquivos</a></div>
+<section><div class="secao__topo"><h2>Histórico de documentos enviados</h2></div><div class="tabela-caixa"><table class="tabela"><thead><tr><th>Documento</th><th>Disciplina</th><th>Turma</th><th>Enviado em</th><th>Status da IA</th><th>Ações</th></tr></thead><tbody><tr><td>Funções do 1º grau.pdf</td><td>Matemática</td><td>9º B</td><td>20/10/2026</td><td><span class="tag tag--verde">Processado</span></td><td><a href="#">Abrir original</a></td></tr><tr><td>Geometria plana.docx</td><td>Matemática</td><td>9º B</td><td>21/10/2026</td><td><span class="tag tag--amarelo">Processando 64%</span></td><td><a href="../professor/processamento.html">Ver andamento</a></td></tr><tr><td>Revolução Francesa.pdf</td><td>História</td><td>1º EM</td><td>18/10/2026</td><td><span class="tag tag--verde">Processado</span></td><td><a href="#">Abrir original</a></td></tr><tr><td>Células e organelas.pptx</td><td>Ciências</td><td>8º A</td><td>15/10/2026</td><td><span class="tag tag--vermelho">Erro na leitura</span></td><td><a href="../professor/processamento.html">Corrigir</a></td></tr><tr><td>Sintaxe – resumo.docx</td><td>Português</td><td>9º A</td><td>22/10/2026</td><td><span class="tag tag--cinza">Aguardando</span></td><td><a href="#">Abrir original</a></td></tr></tbody></table></div></section>
+<div class="aviso aviso--azul"><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg><p>Abra o documento original e corrija o texto extraído antes de gerar os materiais.</p></div>
+    </main>
+  </div>
+</div>
+<script src="../assets/js/app.js"></script>
+</body>
+</html>
