@@ -1,2 +1,15 @@
+[project]
+name = "edu-ai"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "bcrypt>=4.0",
+    "pyjwt>=2.8",
+    "python-multipart>=0.0.9",
+    "pypdf>=4.0",
+]
+
 [tool.vercel]
 entrypoint = "server.app.main:app"
