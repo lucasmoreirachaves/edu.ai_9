@@ -10,7 +10,13 @@ from fastapi import Request
 from fastapi.routing import APIRoute
 from pathlib import Path
 
-DB_PATH = Path(os.environ.get("EDU_DB", Path(__file__).resolve().parent.parent / "edu.db"))
+# Na Vercel, só a pasta temporária /tmp permite gravar arquivos
+if os.environ.get("VERCEL"):
+    DEFAULT_DB = Path("/tmp/edu.db")
+else:
+    DEFAULT_DB = Path(__file__).resolve().parent.parent / "edu.db"
+
+DB_PATH = Path(os.environ.get("EDU_DB", DEFAULT_DB))
 UPLOAD_DIR = DB_PATH.parent / "uploads"
 
 SCHEMA = """
